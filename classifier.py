@@ -59,6 +59,7 @@ def build_network(arch: str, hidden_units: list, n_classes: int, dropout_rate: f
     Returns:
     - model: The selected pretrained model with a customized classifier appended.
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
 
     assert isinstance(arch, str), "arch must be a string"
     assert isinstance(hidden_units, list), "hidden_units must be a list"
@@ -124,7 +125,8 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, devic
     - training losses: a list containg the train loss for each step
     - test losses:: a list containing the test loss for each step
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     cpu = torch.device('cpu')
     gpu = torch.device('cuda')
 
@@ -251,7 +253,8 @@ def save_checkpoint(checkpoint):
     Returns:
     None
     """    
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Create a Tkinter root window
     root = tk.Tk()
     root.withdraw()  # Hide the main window
@@ -367,7 +370,8 @@ def predict(image_path, model, labels, idx_class_mapping, device_choice, topk=5)
     - probs: the probabilities for the 'topk' classes
     - classes: the label name for the 'topk' classes
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     if device_choice == 'gpu':
         # Set device to GPU if available
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

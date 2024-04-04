@@ -56,7 +56,7 @@ def main():
 
         # Loop through each image file to make predictions
         for image_file in image_files:
-                probs, classes = predict(image_file, model, labels, idx_class_mapping, 1)
+                probs, classes = predict(image_file, model, labels, in_args.device, idx_class_mapping, 1)
                 expected = labels[image_file.split('/')[-2]]
                 all_predictions.append({
                     'image_file': image_file,
@@ -91,7 +91,7 @@ def main():
             
     elif input_type == 'single':
         # Predict classes and probabilities for a single image
-        probs, classes = predict(in_args.input_data, model, labels, idx_class_mapping, in_args.topk)
+        probs, classes = predict(in_args.input_data, model, labels, idx_class_mapping, in_args.device, in_args.topk)
         print_predictions(probs, classes)
     else:
         raise Exception("Input type must be a single images or a folder containing images")

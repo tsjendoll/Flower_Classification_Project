@@ -21,7 +21,6 @@ from classifier import (
     save_checkpoint
 )
 
-
 def main():
     """
     Main function to train a neural network model using the specified configurations.
@@ -39,6 +38,8 @@ def main():
     - Exception: If the folder structure is not correct.
 
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     prettify('title')
 
     # Get command line arguments using in_arg

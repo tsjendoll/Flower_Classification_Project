@@ -8,6 +8,7 @@
 # PURPOSE:  Defines utility functions necessary for the command line applications  
 #           to run.
 
+# Standard Library Imports
 import os
 import re
 import time
@@ -15,14 +16,14 @@ import json
 import argparse
 from datetime import datetime
 
+# Third-Party Library Imports
 import torch
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
-
 import tkinter as tk
 from tkinter import filedialog
-
 from PIL import Image
+
 
 def get_input_args(command: str):
     """
@@ -114,6 +115,7 @@ def check_subfolders(path: str):
         bool: True if 'train' and 'valid' subfolders are present, False otherwise.
         int: The count of subfolders in 'train' and 'valid' if they are present, 0 otherwise.
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
     
     # List all subfolders in the main folder
     subfolders = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
@@ -172,6 +174,8 @@ def setup_data(path: str):
         trainloader (torch.utils.data.DataLoader): DataLoader for the train dataset.
         validloader (torch.utils.data.DataLoader): DataLoader for the validation dataset.
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     data_dir = path
     train_dir = data_dir + '/train'
     valid_dir = data_dir + '/valid'
@@ -211,6 +215,8 @@ def label_mapping(path: str):
     Returns:
         label_dict: a dict of indices as keys and category names as values
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Check if the file path ends with '.json'
     if path.endswith('.json'):
         try:
@@ -248,7 +254,8 @@ def wait(seconds):
     Args:
     - seconds (int): The number of seconds to wait.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     print("\n")
     for _ in range(seconds):
         print('.', end='')
@@ -262,7 +269,8 @@ def prettify(text):
     Args:
     - text (str): The text option to determine the format to be printed.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Wait for 5 seconds if the text is not 'title'
     if text != 'title':
         wait(5)
@@ -304,7 +312,8 @@ def plot_losses(train_losses, test_losses):
     - train_losses (list): List of training losses.
     - test_losses (list): List of validation losses.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Plot the training and validation losses
     plt.plot(train_losses, label='Training loss')
     plt.plot(test_losses, label='Validation loss')
@@ -347,6 +356,8 @@ def check_input_type(input_path):
     Returns:
     - str: 'single' if the input is a single image, 'folder' if it's a folder.
     """
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     image_extensions = ['.jpg', '.jpeg', '.png']
     
     if os.path.isfile(input_path):
@@ -373,7 +384,8 @@ def process_image(image_path):
     Returns:
     - image(tensor): The processed image tensor.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Define the image transformation pipeline
     transform = transforms.Compose([
         transforms.Resize(256),
@@ -396,7 +408,8 @@ def print_predictions(tensor, flower_names):
     - tensor (Tensor or numpy array): The tensor containing the predicted probabilities.
     - flower_names (list): List of flower names corresponding to the tensor probabilities.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     # Convert tensor to numpy array if it's a tensor
     tensor = tensor.numpy() if torch.is_tensor(tensor) else tensor
 
@@ -414,9 +427,10 @@ def find_image_files(directory):
     - directory (str): The directory path to search for image files.
 
     Returns:
-    - list: List of paths to the image files found in the directory.
+    - image_files (list): List of paths to the image files found in the directory.
     """
-
+    # Docstring generated with OpenAI. (2024). ChatGPT (3.5) [Large language model]. https://chat.openai.com
+    
     image_files = []
     for root, _, files in os.walk(directory):
         for filename in files:
