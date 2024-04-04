@@ -1,820 +1,820 @@
 image_file,expected,prediction,probability,match
-flowers/test/1/image_06743.jpg,pink primrose,pink primrose,99.17,True
-flowers/test/1/image_06752.jpg,pink primrose,pink primrose,61.03,True
-flowers/test/1/image_06754.jpg,pink primrose,watercress,53.16,False
-flowers/test/1/image_06760.jpg,pink primrose,pelargonium,42.71,False
-flowers/test/1/image_06764.jpg,pink primrose,pink primrose,57.48,True
-flowers/test/10/image_07090.jpg,globe thistle,globe thistle,100.0,True
-flowers/test/10/image_07104.jpg,globe thistle,globe thistle,100.0,True
-flowers/test/10/image_07117.jpg,globe thistle,globe thistle,100.0,True
-flowers/test/100/image_07896.jpg,blanket flower,blanket flower,99.98,True
-flowers/test/100/image_07897.jpg,blanket flower,blanket flower,98.88,True
-flowers/test/100/image_07899.jpg,blanket flower,blanket flower,100.0,True
-flowers/test/100/image_07902.jpg,blanket flower,blanket flower,96.61,True
-flowers/test/100/image_07926.jpg,blanket flower,blanket flower,99.97,True
-flowers/test/100/image_07936.jpg,blanket flower,blanket flower,98.89,True
-flowers/test/100/image_07938.jpg,blanket flower,blanket flower,99.87,True
-flowers/test/100/image_07939.jpg,blanket flower,blanket flower,99.28,True
-flowers/test/101/image_07949.jpg,trumpet creeper,canna lily,29.41,False
-flowers/test/101/image_07952.jpg,trumpet creeper,trumpet creeper,99.68,True
-flowers/test/101/image_07983.jpg,trumpet creeper,trumpet creeper,99.61,True
-flowers/test/101/image_07988.jpg,trumpet creeper,trumpet creeper,86.59,True
-flowers/test/102/image_08004.jpg,blackberry lily,blackberry lily,100.0,True
-flowers/test/102/image_08012.jpg,blackberry lily,blackberry lily,99.98,True
-flowers/test/102/image_08015.jpg,blackberry lily,blackberry lily,93.88,True
-flowers/test/102/image_08023.jpg,blackberry lily,blackberry lily,100.0,True
-flowers/test/102/image_08030.jpg,blackberry lily,blackberry lily,70.14,True
-flowers/test/102/image_08042.jpg,blackberry lily,blackberry lily,100.0,True
-flowers/test/11/image_03098.jpg,snapdragon,rose,23.89,False
-flowers/test/11/image_03115.jpg,snapdragon,rose,47.55,False
-flowers/test/11/image_03130.jpg,snapdragon,sweet pea,51.22,False
-flowers/test/11/image_03141.jpg,snapdragon,snapdragon,98.96,True
-flowers/test/11/image_03147.jpg,snapdragon,snapdragon,66.54,True
-flowers/test/11/image_03151.jpg,snapdragon,snapdragon,95.11,True
-flowers/test/11/image_03165.jpg,snapdragon,snapdragon,43.64,True
-flowers/test/11/image_03176.jpg,snapdragon,snapdragon,71.44,True
-flowers/test/11/image_03177.jpg,snapdragon,lenten rose,61.94,False
-flowers/test/12/image_03994.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/12/image_03996.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/12/image_04012.jpg,colt's foot,colt's foot,45.25,True
-flowers/test/12/image_04014.jpg,colt's foot,colt's foot,99.99,True
-flowers/test/12/image_04016.jpg,colt's foot,canna lily,40.93,False
-flowers/test/12/image_04023.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/12/image_04052.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/12/image_04059.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/12/image_04077.jpg,colt's foot,colt's foot,100.0,True
-flowers/test/13/image_05745.jpg,king protea,king protea,100.0,True
-flowers/test/13/image_05761.jpg,king protea,artichoke,98.81,False
-flowers/test/13/image_05767.jpg,king protea,king protea,99.86,True
-flowers/test/13/image_05769.jpg,king protea,king protea,100.0,True
-flowers/test/13/image_05775.jpg,king protea,king protea,100.0,True
-flowers/test/13/image_05787.jpg,king protea,water lily,51.24,False
-flowers/test/14/image_06052.jpg,spear thistle,spear thistle,64.32,True
-flowers/test/14/image_06083.jpg,spear thistle,globe thistle,99.7,False
-flowers/test/14/image_06091.jpg,spear thistle,spear thistle,63.53,True
-flowers/test/15/image_06351.jpg,yellow iris,yellow iris,94.07,True
-flowers/test/15/image_06360.jpg,yellow iris,yellow iris,98.6,True
-flowers/test/15/image_06369.jpg,yellow iris,yellow iris,97.32,True
-flowers/test/15/image_06374.jpg,yellow iris,daffodil,44.05,False
-flowers/test/16/image_06657.jpg,globe-flower,bougainvillea,37.06,False
-flowers/test/16/image_06670.jpg,globe-flower,globe-flower,98.24,True
-flowers/test/16/image_06673.jpg,globe-flower,globe-flower,36.76,True
-flowers/test/17/image_03830.jpg,purple coneflower,purple coneflower,100.0,True
-flowers/test/17/image_03846.jpg,purple coneflower,purple coneflower,100.0,True
-flowers/test/17/image_03855.jpg,purple coneflower,purple coneflower,99.98,True
-flowers/test/17/image_03861.jpg,purple coneflower,purple coneflower,100.0,True
-flowers/test/17/image_03864.jpg,purple coneflower,purple coneflower,99.14,True
-flowers/test/17/image_03872.jpg,purple coneflower,purple coneflower,99.91,True
-flowers/test/17/image_03893.jpg,purple coneflower,purple coneflower,100.0,True
-flowers/test/17/image_03906.jpg,purple coneflower,purple coneflower,99.99,True
-flowers/test/17/image_03911.jpg,purple coneflower,purple coneflower,100.0,True
-flowers/test/18/image_04254.jpg,peruvian lily,desert-rose,42.38,False
-flowers/test/18/image_04256.jpg,peruvian lily,gazania,98.35,False
-flowers/test/18/image_04272.jpg,peruvian lily,peruvian lily,89.64,True
-flowers/test/18/image_04277.jpg,peruvian lily,hippeastrum,72.91,False
-flowers/test/18/image_04292.jpg,peruvian lily,peruvian lily,43.31,True
-flowers/test/18/image_04322.jpg,peruvian lily,lotus lotus,92.9,False
-flowers/test/19/image_06155.jpg,balloon flower,morning glory,38.03,False
-flowers/test/19/image_06159.jpg,balloon flower,garden phlox,35.93,False
-flowers/test/19/image_06170.jpg,balloon flower,balloon flower,82.94,True
-flowers/test/19/image_06175.jpg,balloon flower,balloon flower,99.93,True
-flowers/test/19/image_06186.jpg,balloon flower,balloon flower,96.35,True
-flowers/test/19/image_06196.jpg,balloon flower,balloon flower,99.96,True
-flowers/test/19/image_06197.jpg,balloon flower,balloon flower,48.85,True
-flowers/test/2/image_05100.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,100.0,True
-flowers/test/2/image_05107.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,100.0,True
-flowers/test/2/image_05109.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,77.67,True
-flowers/test/2/image_05125.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,100.0,True
-flowers/test/2/image_05133.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,100.0,True
-flowers/test/20/image_04910.jpg,giant white arum lily,lotus lotus,46.73,False
-flowers/test/20/image_04912.jpg,giant white arum lily,giant white arum lily,99.84,True
-flowers/test/20/image_04938.jpg,giant white arum lily,thorn apple,49.21,False
-flowers/test/21/image_06805.jpg,fire lily,fire lily,88.23,True
-flowers/test/21/image_06807.jpg,fire lily,fire lily,70.29,True
-flowers/test/22/image_05360.jpg,pincushion flower,pincushion flower,100.0,True
-flowers/test/22/image_05362.jpg,pincushion flower,pincushion flower,93.96,True
-flowers/test/22/image_05366.jpg,pincushion flower,pincushion flower,99.22,True
-flowers/test/22/image_05391.jpg,pincushion flower,pincushion flower,97.93,True
-flowers/test/23/image_03382.jpg,fritillary,fritillary,100.0,True
-flowers/test/23/image_03390.jpg,fritillary,fritillary,100.0,True
-flowers/test/23/image_03409.jpg,fritillary,fritillary,100.0,True
-flowers/test/23/image_03414.jpg,fritillary,fritillary,74.4,True
-flowers/test/23/image_03440.jpg,fritillary,fritillary,100.0,True
-flowers/test/23/image_03442.jpg,fritillary,fritillary,99.99,True
-flowers/test/23/image_03454.jpg,fritillary,fritillary,100.0,True
-flowers/test/24/image_06815.jpg,red ginger,red ginger,99.82,True
-flowers/test/24/image_06849.jpg,red ginger,red ginger,91.15,True
-flowers/test/25/image_06580.jpg,grape hyacinth,grape hyacinth,99.97,True
-flowers/test/25/image_06582.jpg,grape hyacinth,pincushion flower,69.81,False
-flowers/test/25/image_06583.jpg,grape hyacinth,grape hyacinth,99.39,True
-flowers/test/25/image_06593.jpg,grape hyacinth,grape hyacinth,100.0,True
-flowers/test/25/image_06611.jpg,grape hyacinth,grape hyacinth,100.0,True
-flowers/test/26/image_06497.jpg,corn poppy,corn poppy,97.92,True
-flowers/test/26/image_06498.jpg,corn poppy,wallflower,82.88,False
-flowers/test/26/image_06500.jpg,corn poppy,corn poppy,85.79,True
-flowers/test/26/image_06514.jpg,corn poppy,corn poppy,99.8,True
-flowers/test/26/image_06526.jpg,corn poppy,corn poppy,93.04,True
-flowers/test/27/image_06864.jpg,prince of wales feathers,prince of wales feathers,100.0,True
-flowers/test/27/image_06871.jpg,prince of wales feathers,prince of wales feathers,100.0,True
-flowers/test/27/image_06887.jpg,prince of wales feathers,prince of wales feathers,96.38,True
-flowers/test/28/image_05214.jpg,stemless gentian,stemless gentian,98.98,True
-flowers/test/28/image_05230.jpg,stemless gentian,stemless gentian,46.7,True
-flowers/test/28/image_05242.jpg,stemless gentian,stemless gentian,99.9,True
-flowers/test/28/image_05253.jpg,stemless gentian,stemless gentian,99.24,True
-flowers/test/28/image_05270.jpg,stemless gentian,stemless gentian,99.97,True
-flowers/test/28/image_05277.jpg,stemless gentian,stemless gentian,93.06,True
-flowers/test/29/image_04083.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04090.jpg,artichoke,artichoke,99.98,True
-flowers/test/29/image_04095.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04112.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04124.jpg,artichoke,artichoke,98.39,True
-flowers/test/29/image_04137.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04142.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04145.jpg,artichoke,artichoke,100.0,True
-flowers/test/29/image_04146.jpg,artichoke,artichoke,100.0,True
-flowers/test/3/image_06634.jpg,canterbury bells,columbine,28.11,False
-flowers/test/3/image_06641.jpg,canterbury bells,rose,26.45,False
-flowers/test/30/image_03466.jpg,sweet william,sweet william,96.85,True
-flowers/test/30/image_03481.jpg,sweet william,sweet william,98.43,True
-flowers/test/30/image_03482.jpg,sweet william,sweet william,99.92,True
-flowers/test/30/image_03484.jpg,sweet william,garden phlox,44.72,False
-flowers/test/30/image_03488.jpg,sweet william,primula,89.36,False
-flowers/test/30/image_03489.jpg,sweet william,sweet william,99.58,True
-flowers/test/30/image_03506.jpg,sweet william,sweet william,29.6,True
-flowers/test/30/image_03509.jpg,sweet william,sweet william,97.24,True
-flowers/test/30/image_03510.jpg,sweet william,sweet william,54.11,True
-flowers/test/30/image_03512.jpg,sweet william,primula,96.59,False
-flowers/test/30/image_03528.jpg,sweet william,sweet william,97.75,True
-flowers/test/30/image_03538.jpg,sweet william,sweet william,79.98,True
-flowers/test/30/image_03541.jpg,sweet william,azalea,31.54,False
-flowers/test/30/image_03542.jpg,sweet william,sweet william,85.2,True
-flowers/test/31/image_06903.jpg,carnation,pelargonium,36.68,False
-flowers/test/31/image_08070.jpg,carnation,carnation,71.93,True
-flowers/test/32/image_05591.jpg,garden phlox,primula,52.42,False
-flowers/test/32/image_05592.jpg,garden phlox,garden phlox,97.46,True
-flowers/test/32/image_05595.jpg,garden phlox,columbine,36.2,False
-flowers/test/32/image_05602.jpg,garden phlox,garden phlox,89.48,True
-flowers/test/32/image_05610.jpg,garden phlox,garden phlox,51.78,True
-flowers/test/32/image_05614.jpg,garden phlox,azalea,38.57,False
-flowers/test/33/image_06454.jpg,love in the mist,love in the mist,79.67,True
-flowers/test/33/image_06456.jpg,love in the mist,love in the mist,99.85,True
-flowers/test/33/image_06457.jpg,love in the mist,love in the mist,100.0,True
-flowers/test/33/image_06460.jpg,love in the mist,love in the mist,100.0,True
-flowers/test/33/image_06470.jpg,love in the mist,love in the mist,99.36,True
-flowers/test/33/image_06478.jpg,love in the mist,love in the mist,100.0,True
-flowers/test/33/image_06479.jpg,love in the mist,love in the mist,25.43,True
-flowers/test/33/image_06486.jpg,love in the mist,love in the mist,100.0,True
-flowers/test/34/image_06929.jpg,mexican aster,mexican aster,99.98,True
-flowers/test/34/image_06933.jpg,mexican aster,mexican aster,93.02,True
-flowers/test/34/image_06941.jpg,mexican aster,mexican aster,100.0,True
-flowers/test/34/image_06954.jpg,mexican aster,osteospermum,99.34,False
-flowers/test/34/image_06961.jpg,mexican aster,mexican aster,98.91,True
-flowers/test/35/image_06984.jpg,alpine sea holly,alpine sea holly,94.75,True
-flowers/test/35/image_06986.jpg,alpine sea holly,alpine sea holly,100.0,True
-flowers/test/35/image_06992.jpg,alpine sea holly,alpine sea holly,100.0,True
-flowers/test/35/image_07006.jpg,alpine sea holly,alpine sea holly,100.0,True
-flowers/test/35/image_08084.jpg,alpine sea holly,alpine sea holly,100.0,True
-flowers/test/35/image_08088.jpg,alpine sea holly,alpine sea holly,100.0,True
-flowers/test/36/image_04334.jpg,ruby-lipped cattleya,ruby-lipped cattleya,98.85,True
-flowers/test/36/image_04344.jpg,ruby-lipped cattleya,ruby-lipped cattleya,99.73,True
-flowers/test/36/image_04364.jpg,ruby-lipped cattleya,ruby-lipped cattleya,99.95,True
-flowers/test/36/image_04373.jpg,ruby-lipped cattleya,ruby-lipped cattleya,100.0,True
-flowers/test/36/image_04382.jpg,ruby-lipped cattleya,ruby-lipped cattleya,99.98,True
-flowers/test/36/image_04392.jpg,ruby-lipped cattleya,ruby-lipped cattleya,97.45,True
-flowers/test/36/image_04400.jpg,ruby-lipped cattleya,ruby-lipped cattleya,79.84,True
-flowers/test/37/image_03734.jpg,cape flower,cape flower,99.68,True
-flowers/test/37/image_03741.jpg,cape flower,cape flower,99.95,True
-flowers/test/37/image_03783.jpg,cape flower,cape flower,100.0,True
-flowers/test/37/image_03789.jpg,cape flower,cape flower,99.94,True
-flowers/test/37/image_03807.jpg,cape flower,cape flower,74.3,True
-flowers/test/37/image_03811.jpg,cape flower,cape flower,100.0,True
-flowers/test/37/image_03815.jpg,cape flower,cape flower,99.98,True
-flowers/test/37/image_03821.jpg,cape flower,cape flower,99.97,True
-flowers/test/38/image_05796.jpg,great masterwort,great masterwort,92.55,True
-flowers/test/38/image_05797.jpg,great masterwort,great masterwort,35.9,True
-flowers/test/38/image_05799.jpg,great masterwort,great masterwort,100.0,True
-flowers/test/38/image_05806.jpg,great masterwort,great masterwort,99.83,True
-flowers/test/38/image_05812.jpg,great masterwort,great masterwort,99.66,True
-flowers/test/38/image_05824.jpg,great masterwort,great masterwort,98.94,True
-flowers/test/38/image_05825.jpg,great masterwort,pincushion flower,72.78,False
-flowers/test/38/image_05833.jpg,great masterwort,great masterwort,82.82,True
-flowers/test/39/image_07010.jpg,siam tulip,cape flower,38.96,False
-flowers/test/39/image_07016.jpg,siam tulip,rose,72.98,False
-flowers/test/39/image_07018.jpg,siam tulip,desert-rose,27.67,False
-flowers/test/39/image_07035.jpg,siam tulip,pelargonium,38.49,False
-flowers/test/39/image_07043.jpg,siam tulip,water lily,46.19,False
-flowers/test/4/image_05636.jpg,sweet pea,sword lily,51.34,False
-flowers/test/4/image_05637.jpg,sweet pea,sweet pea,97.55,True
-flowers/test/4/image_05640.jpg,sweet pea,sweet pea,91.66,True
-flowers/test/4/image_05653.jpg,sweet pea,monkshood,45.73,False
-flowers/test/4/image_05658.jpg,sweet pea,sweet pea,38.0,True
-flowers/test/4/image_05678.jpg,sweet pea,cape flower,28.37,False
-flowers/test/40/image_04563.jpg,lenten rose,lenten rose,100.0,True
-flowers/test/40/image_04568.jpg,lenten rose,japanese anemone,31.66,False
-flowers/test/40/image_04573.jpg,lenten rose,balloon flower,18.51,False
-flowers/test/40/image_04582.jpg,lenten rose,mallow,89.13,False
-flowers/test/40/image_04586.jpg,lenten rose,azalea,34.89,False
-flowers/test/40/image_04587.jpg,lenten rose,lenten rose,92.85,True
-flowers/test/40/image_04588.jpg,lenten rose,lenten rose,99.02,True
-flowers/test/40/image_04609.jpg,lenten rose,petunia,21.07,False
-flowers/test/41/image_02193.jpg,barbeton daisy,barbeton daisy,100.0,True
-flowers/test/41/image_02200.jpg,barbeton daisy,barbeton daisy,100.0,True
-flowers/test/41/image_02222.jpg,barbeton daisy,barbeton daisy,54.58,True
-flowers/test/41/image_02237.jpg,barbeton daisy,oxeye daisy,97.83,False
-flowers/test/41/image_02245.jpg,barbeton daisy,barbeton daisy,99.95,True
-flowers/test/41/image_02251.jpg,barbeton daisy,english marigold,93.76,False
-flowers/test/41/image_02257.jpg,barbeton daisy,barbeton daisy,99.94,True
-flowers/test/41/image_02261.jpg,barbeton daisy,gazania,99.59,False
-flowers/test/41/image_02263.jpg,barbeton daisy,barbeton daisy,99.26,True
-flowers/test/41/image_02266.jpg,barbeton daisy,barbeton daisy,99.98,True
-flowers/test/41/image_02270.jpg,barbeton daisy,english marigold,41.87,False
-flowers/test/41/image_02302.jpg,barbeton daisy,barbeton daisy,100.0,True
-flowers/test/41/image_02305.jpg,barbeton daisy,barbeton daisy,56.17,True
-flowers/test/41/image_02306.jpg,barbeton daisy,barbeton daisy,99.98,True
-flowers/test/42/image_05696.jpg,daffodil,daffodil,99.7,True
-flowers/test/42/image_05711.jpg,daffodil,daffodil,99.44,True
-flowers/test/42/image_05730.jpg,daffodil,californian poppy,31.73,False
-flowers/test/42/image_05731.jpg,daffodil,magnolia,29.81,False
-flowers/test/43/image_02329.jpg,sword lily,sword lily,98.47,True
-flowers/test/43/image_02335.jpg,sword lily,sword lily,96.57,True
-flowers/test/43/image_02346.jpg,sword lily,sword lily,99.69,True
-flowers/test/43/image_02349.jpg,sword lily,sword lily,99.59,True
-flowers/test/43/image_02365.jpg,sword lily,sword lily,100.0,True
-flowers/test/43/image_02369.jpg,sword lily,sword lily,68.73,True
-flowers/test/43/image_02370.jpg,sword lily,canna lily,49.68,False
-flowers/test/43/image_02371.jpg,sword lily,canna lily,47.91,False
-flowers/test/43/image_02386.jpg,sword lily,sword lily,98.47,True
-flowers/test/43/image_02394.jpg,sword lily,sword lily,99.28,True
-flowers/test/43/image_02400.jpg,sword lily,canna lily,91.37,False
-flowers/test/43/image_02412.jpg,sword lily,canna lily,55.79,False
-flowers/test/43/image_02426.jpg,sword lily,sword lily,97.93,True
-flowers/test/43/image_02431.jpg,sword lily,sword lily,99.53,True
-flowers/test/43/image_02433.jpg,sword lily,rose,98.08,False
-flowers/test/43/image_02435.jpg,sword lily,sword lily,92.25,True
-flowers/test/44/image_01502.jpg,poinsettia,poinsettia,100.0,True
-flowers/test/44/image_01512.jpg,poinsettia,poinsettia,27.03,True
-flowers/test/44/image_01515.jpg,poinsettia,poinsettia,100.0,True
-flowers/test/44/image_01516.jpg,poinsettia,poinsettia,99.98,True
-flowers/test/44/image_01518.jpg,poinsettia,poinsettia,99.98,True
-flowers/test/44/image_01527.jpg,poinsettia,poinsettia,100.0,True
-flowers/test/44/image_01530.jpg,poinsettia,poinsettia,99.47,True
-flowers/test/44/image_01548.jpg,poinsettia,poinsettia,99.99,True
-flowers/test/44/image_01560.jpg,poinsettia,poinsettia,87.94,True
-flowers/test/44/image_01564.jpg,poinsettia,poinsettia,99.99,True
-flowers/test/44/image_01578.jpg,poinsettia,poinsettia,98.11,True
-flowers/test/45/image_07139.jpg,bolero deep blue,bolero deep blue,99.35,True
-flowers/test/45/image_07140.jpg,bolero deep blue,bolero deep blue,78.86,True
-flowers/test/45/image_07142.jpg,bolero deep blue,bolero deep blue,99.78,True
-flowers/test/46/image_00958.jpg,wallflower,wallflower,95.59,True
-flowers/test/46/image_00961.jpg,wallflower,wallflower,98.55,True
-flowers/test/46/image_00969.jpg,wallflower,wallflower,98.68,True
-flowers/test/46/image_00970.jpg,wallflower,wallflower,99.38,True
-flowers/test/46/image_00976.jpg,wallflower,wallflower,98.86,True
-flowers/test/46/image_00990.jpg,wallflower,wallflower,99.7,True
-flowers/test/46/image_00996.jpg,wallflower,wallflower,95.57,True
-flowers/test/46/image_00999.jpg,wallflower,wallflower,99.13,True
-flowers/test/46/image_01003.jpg,wallflower,wallflower,100.0,True
-flowers/test/46/image_01026.jpg,wallflower,wallflower,97.9,True
-flowers/test/46/image_01038.jpg,wallflower,geranium,70.3,False
-flowers/test/46/image_01061.jpg,wallflower,wallflower,100.0,True
-flowers/test/46/image_01071.jpg,wallflower,wallflower,99.3,True
-flowers/test/46/image_01077.jpg,wallflower,wallflower,100.0,True
-flowers/test/46/image_01078.jpg,wallflower,wallflower,98.46,True
-flowers/test/46/image_01090.jpg,wallflower,wallflower,99.96,True
-flowers/test/46/image_01092.jpg,wallflower,wallflower,99.01,True
-flowers/test/46/image_01109.jpg,wallflower,wallflower,99.98,True
-flowers/test/46/image_01115.jpg,wallflower,wallflower,70.03,True
-flowers/test/46/image_01119.jpg,wallflower,wallflower,100.0,True
-flowers/test/46/image_01125.jpg,wallflower,wallflower,100.0,True
-flowers/test/47/image_04966.jpg,marigold,marigold,100.0,True
-flowers/test/47/image_04993.jpg,marigold,marigold,100.0,True
-flowers/test/47/image_05013.jpg,marigold,marigold,100.0,True
-flowers/test/48/image_04627.jpg,buttercup,buttercup,99.98,True
-flowers/test/48/image_04663.jpg,buttercup,buttercup,100.0,True
-flowers/test/48/image_04665.jpg,buttercup,buttercup,98.31,True
-flowers/test/48/image_04667.jpg,buttercup,buttercup,99.12,True
-flowers/test/48/image_04671.jpg,buttercup,buttercup,99.97,True
-flowers/test/49/image_06202.jpg,oxeye daisy,barbeton daisy,55.01,False
-flowers/test/49/image_06213.jpg,oxeye daisy,oxeye daisy,100.0,True
-flowers/test/49/image_06215.jpg,oxeye daisy,oxeye daisy,100.0,True
-flowers/test/5/image_05159.jpg,english marigold,english marigold,100.0,True
-flowers/test/5/image_05166.jpg,english marigold,english marigold,60.91,True
-flowers/test/5/image_05169.jpg,english marigold,english marigold,85.09,True
-flowers/test/5/image_05186.jpg,english marigold,english marigold,100.0,True
-flowers/test/50/image_06297.jpg,common dandelion,colt's foot,74.39,False
-flowers/test/50/image_06318.jpg,common dandelion,common dandelion,99.99,True
-flowers/test/50/image_06319.jpg,common dandelion,common dandelion,96.09,True
-flowers/test/50/image_06320.jpg,common dandelion,common dandelion,99.98,True
-flowers/test/50/image_06321.jpg,common dandelion,common dandelion,100.0,True
-flowers/test/50/image_06541.jpg,common dandelion,common dandelion,100.0,True
-flowers/test/50/image_06546.jpg,common dandelion,common dandelion,99.99,True
-flowers/test/50/image_06547.jpg,common dandelion,common dandelion,99.61,True
-flowers/test/51/image_01314.jpg,petunia,petunia,99.98,True
-flowers/test/51/image_01316.jpg,petunia,petunia,99.87,True
-flowers/test/51/image_01328.jpg,petunia,petunia,97.93,True
-flowers/test/51/image_01335.jpg,petunia,petunia,84.02,True
-flowers/test/51/image_01340.jpg,petunia,petunia,99.87,True
-flowers/test/51/image_01362.jpg,petunia,petunia,93.63,True
-flowers/test/51/image_01370.jpg,petunia,sword lily,44.66,False
-flowers/test/51/image_01388.jpg,petunia,petunia,99.49,True
-flowers/test/51/image_01406.jpg,petunia,petunia,99.12,True
-flowers/test/51/image_01407.jpg,petunia,petunia,99.84,True
-flowers/test/51/image_01457.jpg,petunia,petunia,99.99,True
-flowers/test/51/image_01468.jpg,petunia,petunia,99.25,True
-flowers/test/51/image_01474.jpg,petunia,petunia,80.42,True
-flowers/test/51/image_03926.jpg,petunia,bolero deep blue,25.79,False
-flowers/test/51/image_03939.jpg,petunia,pelargonium,51.07,False
-flowers/test/51/image_03954.jpg,petunia,petunia,99.28,True
-flowers/test/51/image_03960.jpg,petunia,petunia,71.74,True
-flowers/test/51/image_03968.jpg,petunia,petunia,99.52,True
-flowers/test/51/image_03973.jpg,petunia,petunia,64.83,True
-flowers/test/51/image_03980.jpg,petunia,petunia,71.88,True
-flowers/test/51/image_03984.jpg,petunia,petunia,64.41,True
-flowers/test/51/image_03985.jpg,petunia,primula,41.37,False
-flowers/test/51/image_03986.jpg,petunia,hippeastrum,92.2,False
-flowers/test/51/image_03989.jpg,petunia,petunia,54.42,True
-flowers/test/52/image_04160.jpg,wild pansy,wild pansy,94.9,True
-flowers/test/52/image_04167.jpg,wild pansy,wild pansy,99.99,True
-flowers/test/52/image_04168.jpg,wild pansy,wild pansy,97.81,True
-flowers/test/52/image_04169.jpg,wild pansy,wild pansy,97.82,True
-flowers/test/52/image_04181.jpg,wild pansy,wild pansy,99.96,True
-flowers/test/52/image_04200.jpg,wild pansy,wild pansy,99.98,True
-flowers/test/52/image_04221.jpg,wild pansy,wild pansy,100.0,True
-flowers/test/52/image_04240.jpg,wild pansy,wild pansy,99.12,True
-flowers/test/53/image_03645.jpg,primula,windflower,61.51,False
-flowers/test/53/image_03649.jpg,primula,primula,95.53,True
-flowers/test/53/image_03652.jpg,primula,wallflower,49.73,False
-flowers/test/53/image_03653.jpg,primula,wallflower,55.97,False
-flowers/test/53/image_03662.jpg,primula,orange dahlia,81.87,False
-flowers/test/53/image_03669.jpg,primula,buttercup,65.85,False
-flowers/test/53/image_03672.jpg,primula,primula,95.42,True
-flowers/test/53/image_03677.jpg,primula,primula,46.93,True
-flowers/test/53/image_03689.jpg,primula,primula,99.84,True
-flowers/test/53/image_03712.jpg,primula,primula,63.73,True
-flowers/test/53/image_03714.jpg,primula,primula,100.0,True
-flowers/test/53/image_03717.jpg,primula,tree poppy,83.49,False
-flowers/test/53/image_03718.jpg,primula,primula,99.42,True
-flowers/test/53/image_03724.jpg,primula,primula,99.99,True
-flowers/test/54/image_05402.jpg,sunflower,sunflower,100.0,True
-flowers/test/54/image_05413.jpg,sunflower,sunflower,99.99,True
-flowers/test/54/image_05430.jpg,sunflower,sunflower,84.25,True
-flowers/test/54/image_05440.jpg,sunflower,sunflower,100.0,True
-flowers/test/55/image_04701.jpg,pelargonium,pelargonium,92.93,True
-flowers/test/55/image_04707.jpg,pelargonium,pelargonium,99.4,True
-flowers/test/55/image_04731.jpg,pelargonium,pelargonium,99.91,True
-flowers/test/55/image_04733.jpg,pelargonium,pelargonium,63.6,True
-flowers/test/55/image_04740.jpg,pelargonium,pelargonium,97.87,True
-flowers/test/55/image_04742.jpg,pelargonium,pelargonium,99.72,True
-flowers/test/55/image_04747.jpg,pelargonium,pelargonium,99.79,True
-flowers/test/56/image_02772.jpg,bishop of llandaff,bishop of llandaff,99.0,True
-flowers/test/56/image_02779.jpg,bishop of llandaff,bishop of llandaff,99.98,True
-flowers/test/56/image_02785.jpg,bishop of llandaff,bishop of llandaff,99.08,True
-flowers/test/56/image_02808.jpg,bishop of llandaff,bishop of llandaff,100.0,True
-flowers/test/56/image_02821.jpg,bishop of llandaff,bishop of llandaff,99.98,True
-flowers/test/56/image_02825.jpg,bishop of llandaff,bishop of llandaff,99.99,True
-flowers/test/56/image_02841.jpg,bishop of llandaff,bishop of llandaff,100.0,True
-flowers/test/56/image_02844.jpg,bishop of llandaff,bishop of llandaff,100.0,True
-flowers/test/57/image_07234.jpg,gaura,gaura,63.68,True
-flowers/test/57/image_07241.jpg,gaura,gaura,100.0,True
-flowers/test/57/image_07242.jpg,gaura,gaura,98.69,True
-flowers/test/57/image_07250.jpg,gaura,gaura,100.0,True
-flowers/test/57/image_07266.jpg,gaura,gaura,99.8,True
-flowers/test/57/image_07267.jpg,gaura,gaura,88.7,True
-flowers/test/57/image_08127.jpg,gaura,gaura,100.0,True
-flowers/test/57/image_08129.jpg,gaura,gaura,98.0,True
-flowers/test/57/image_08133.jpg,gaura,gaura,88.88,True
-flowers/test/57/image_08134.jpg,gaura,gaura,100.0,True
-flowers/test/57/image_08144.jpg,gaura,wild pansy,27.77,False
-flowers/test/58/image_02663.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02672.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02677.jpg,geranium,geranium,99.99,True
-flowers/test/58/image_02681.jpg,geranium,geranium,99.96,True
-flowers/test/58/image_02687.jpg,geranium,geranium,99.71,True
-flowers/test/58/image_02694.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02695.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02719.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02721.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02722.jpg,geranium,geranium,99.99,True
-flowers/test/58/image_02737.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02738.jpg,geranium,geranium,100.0,True
-flowers/test/58/image_02743.jpg,geranium,geranium,99.54,True
-flowers/test/58/image_02752.jpg,geranium,geranium,100.0,True
-flowers/test/59/image_05020.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/59/image_05033.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/59/image_05038.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/59/image_05039.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/59/image_05052.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/59/image_05064.jpg,orange dahlia,orange dahlia,99.93,True
-flowers/test/59/image_05067.jpg,orange dahlia,orange dahlia,100.0,True
-flowers/test/6/image_07173.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/6/image_07181.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/6/image_07182.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/6/image_07185.jpg,tiger lily,trumpet creeper,64.19,False
-flowers/test/6/image_07191.jpg,tiger lily,tiger lily,99.98,True
-flowers/test/6/image_07198.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/6/image_07199.jpg,tiger lily,tiger lily,94.89,True
-flowers/test/6/image_08106.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/6/image_08108.jpg,tiger lily,tiger lily,100.0,True
-flowers/test/60/image_02932.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02933.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02958.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02971.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02977.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02978.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_02987.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_03000.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_03008.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/60/image_03026.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
-flowers/test/61/image_06248.jpg,cautleya spicata,cautleya spicata,99.02,True
-flowers/test/61/image_06249.jpg,cautleya spicata,cautleya spicata,100.0,True
-flowers/test/61/image_06251.jpg,cautleya spicata,cautleya spicata,99.94,True
-flowers/test/61/image_06266.jpg,cautleya spicata,cautleya spicata,99.94,True
-flowers/test/61/image_06271.jpg,cautleya spicata,cautleya spicata,99.92,True
-flowers/test/61/image_06279.jpg,cautleya spicata,cautleya spicata,97.54,True
-flowers/test/61/image_06284.jpg,cautleya spicata,cautleya spicata,99.98,True
-flowers/test/61/image_06290.jpg,cautleya spicata,cautleya spicata,99.52,True
-flowers/test/62/image_07269.jpg,japanese anemone,japanese anemone,91.15,True
-flowers/test/62/image_07276.jpg,japanese anemone,japanese anemone,71.17,True
-flowers/test/62/image_08172.jpg,japanese anemone,japanese anemone,91.96,True
-flowers/test/62/image_08177.jpg,japanese anemone,japanese anemone,99.73,True
-flowers/test/63/image_05875.jpg,black-eyed susan,black-eyed susan,100.0,True
-flowers/test/63/image_05878.jpg,black-eyed susan,black-eyed susan,100.0,True
-flowers/test/63/image_05882.jpg,black-eyed susan,black-eyed susan,100.0,True
-flowers/test/63/image_05890.jpg,black-eyed susan,black-eyed susan,100.0,True
-flowers/test/64/image_06099.jpg,silverbush,silverbush,100.0,True
-flowers/test/64/image_06104.jpg,silverbush,silverbush,99.55,True
-flowers/test/64/image_06130.jpg,silverbush,silverbush,97.84,True
-flowers/test/64/image_06134.jpg,silverbush,silverbush,99.99,True
-flowers/test/64/image_06138.jpg,silverbush,silverbush,91.12,True
-flowers/test/65/image_03188.jpg,californian poppy,californian poppy,97.01,True
-flowers/test/65/image_03197.jpg,californian poppy,californian poppy,83.67,True
-flowers/test/65/image_03211.jpg,californian poppy,californian poppy,100.0,True
-flowers/test/65/image_03243.jpg,californian poppy,californian poppy,99.89,True
-flowers/test/65/image_03252.jpg,californian poppy,californian poppy,88.98,True
-flowers/test/65/image_03258.jpg,californian poppy,californian poppy,54.19,True
-flowers/test/65/image_03269.jpg,californian poppy,californian poppy,99.89,True
-flowers/test/66/image_05537.jpg,osteospermum,osteospermum,100.0,True
-flowers/test/66/image_05549.jpg,osteospermum,osteospermum,100.0,True
-flowers/test/66/image_05562.jpg,osteospermum,osteospermum,100.0,True
-flowers/test/66/image_05582.jpg,osteospermum,osteospermum,100.0,True
-flowers/test/67/image_07056.jpg,spring crocus,spring crocus,90.88,True
-flowers/test/67/image_07079.jpg,spring crocus,primula,69.63,False
-flowers/test/67/image_07080.jpg,spring crocus,spring crocus,99.57,True
-flowers/test/67/image_07082.jpg,spring crocus,spring crocus,96.44,True
-flowers/test/68/image_05903.jpg,bearded iris,thorn apple,20.01,False
-flowers/test/68/image_05927.jpg,bearded iris,bearded iris,99.12,True
-flowers/test/68/image_05956.jpg,bearded iris,bearded iris,99.96,True
-flowers/test/69/image_05959.jpg,windflower,windflower,99.06,True
-flowers/test/69/image_05971.jpg,windflower,windflower,99.99,True
-flowers/test/69/image_05994.jpg,windflower,windflower,78.74,True
-flowers/test/7/image_07211.jpg,moon orchid,moon orchid,66.6,True
-flowers/test/7/image_07215.jpg,moon orchid,moon orchid,99.7,True
-flowers/test/7/image_07218.jpg,moon orchid,frangipani,75.95,False
-flowers/test/7/image_07219.jpg,moon orchid,lotus lotus,67.64,False
-flowers/test/7/image_08099.jpg,moon orchid,moon orchid,96.82,True
-flowers/test/7/image_08104.jpg,moon orchid,moon orchid,77.63,True
-flowers/test/70/image_05308.jpg,tree poppy,tree poppy,100.0,True
-flowers/test/70/image_05324.jpg,tree poppy,tree poppy,99.65,True
-flowers/test/70/image_05330.jpg,tree poppy,tree poppy,99.97,True
-flowers/test/70/image_05331.jpg,tree poppy,tree poppy,98.78,True
-flowers/test/71/image_04482.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04488.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04512.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04514.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04515.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04519.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04524.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04555.jpg,gazania,gazania,100.0,True
-flowers/test/71/image_04557.jpg,gazania,gazania,100.0,True
-flowers/test/72/image_03547.jpg,azalea,azalea,95.46,True
-flowers/test/72/image_03575.jpg,azalea,azalea,93.31,True
-flowers/test/72/image_03593.jpg,azalea,azalea,98.68,True
-flowers/test/72/image_03599.jpg,azalea,azalea,99.01,True
-flowers/test/72/image_03603.jpg,azalea,clematis,49.4,False
-flowers/test/72/image_03613.jpg,azalea,azalea,98.14,True
-flowers/test/72/image_03624.jpg,azalea,azalea,97.03,True
-flowers/test/72/image_03625.jpg,azalea,azalea,84.59,True
-flowers/test/72/image_03628.jpg,azalea,azalea,68.17,True
-flowers/test/72/image_03633.jpg,azalea,azalea,93.89,True
-flowers/test/72/image_03635.jpg,azalea,geranium,79.4,False
-flowers/test/73/image_00258.jpg,water lily,water lily,97.05,True
-flowers/test/73/image_00260.jpg,water lily,water lily,99.94,True
-flowers/test/73/image_00277.jpg,water lily,water lily,99.98,True
-flowers/test/73/image_00282.jpg,water lily,water lily,98.3,True
-flowers/test/73/image_00284.jpg,water lily,water lily,99.49,True
-flowers/test/73/image_00288.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00291.jpg,water lily,water lily,99.88,True
-flowers/test/73/image_00294.jpg,water lily,water lily,99.98,True
-flowers/test/73/image_00303.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00319.jpg,water lily,water lily,99.97,True
-flowers/test/73/image_00320.jpg,water lily,water lily,99.93,True
-flowers/test/73/image_00324.jpg,water lily,water lily,96.16,True
-flowers/test/73/image_00330.jpg,water lily,watercress,15.02,False
-flowers/test/73/image_00335.jpg,water lily,water lily,99.93,True
-flowers/test/73/image_00337.jpg,water lily,water lily,99.7,True
-flowers/test/73/image_00345.jpg,water lily,water lily,91.83,True
-flowers/test/73/image_00349.jpg,water lily,water lily,99.16,True
-flowers/test/73/image_00353.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00365.jpg,water lily,water lily,99.81,True
-flowers/test/73/image_00369.jpg,water lily,water lily,98.39,True
-flowers/test/73/image_00387.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00389.jpg,water lily,water lily,78.01,True
-flowers/test/73/image_00394.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00400.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00401.jpg,water lily,lotus lotus,97.53,False
-flowers/test/73/image_00409.jpg,water lily,water lily,100.0,True
-flowers/test/73/image_00426.jpg,water lily,water lily,99.98,True
-flowers/test/73/image_00445.jpg,water lily,water lily,100.0,True
-flowers/test/74/image_01151.jpg,rose,rose,99.99,True
-flowers/test/74/image_01165.jpg,rose,camellia,97.04,False
-flowers/test/74/image_01173.jpg,rose,rose,99.55,True
-flowers/test/74/image_01191.jpg,rose,rose,99.72,True
-flowers/test/74/image_01200.jpg,rose,rose,99.92,True
-flowers/test/74/image_01209.jpg,rose,rose,99.54,True
-flowers/test/74/image_01213.jpg,rose,lotus lotus,50.01,False
-flowers/test/74/image_01249.jpg,rose,rose,100.0,True
-flowers/test/74/image_01254.jpg,rose,rose,96.42,True
-flowers/test/74/image_01256.jpg,rose,rose,100.0,True
-flowers/test/74/image_01276.jpg,rose,rose,99.97,True
-flowers/test/74/image_01305.jpg,rose,rose,98.22,True
-flowers/test/74/image_01307.jpg,rose,rose,99.98,True
-flowers/test/74/image_01312.jpg,rose,rose,99.75,True
-flowers/test/75/image_02075.jpg,thorn apple,thorn apple,99.08,True
-flowers/test/75/image_02078.jpg,thorn apple,thorn apple,99.46,True
-flowers/test/75/image_02085.jpg,thorn apple,thorn apple,100.0,True
-flowers/test/75/image_02088.jpg,thorn apple,thorn apple,99.64,True
-flowers/test/75/image_02111.jpg,thorn apple,thorn apple,99.99,True
-flowers/test/75/image_02115.jpg,thorn apple,thorn apple,97.93,True
-flowers/test/75/image_02119.jpg,thorn apple,thorn apple,99.3,True
-flowers/test/75/image_02135.jpg,thorn apple,thorn apple,100.0,True
-flowers/test/75/image_02144.jpg,thorn apple,thorn apple,95.68,True
-flowers/test/75/image_02154.jpg,thorn apple,thorn apple,100.0,True
-flowers/test/75/image_02157.jpg,thorn apple,thorn apple,100.0,True
-flowers/test/75/image_02167.jpg,thorn apple,thorn apple,99.94,True
-flowers/test/75/image_02188.jpg,thorn apple,thorn apple,99.99,True
-flowers/test/76/image_02472.jpg,morning glory,morning glory,99.84,True
-flowers/test/76/image_02479.jpg,morning glory,morning glory,100.0,True
-flowers/test/76/image_02484.jpg,morning glory,morning glory,99.14,True
-flowers/test/76/image_02550.jpg,morning glory,morning glory,99.6,True
-flowers/test/77/image_00005.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00006.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00024.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00025.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00029.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00050.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00060.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00065.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00092.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00099.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00114.jpg,passion flower,passion flower,93.82,True
-flowers/test/77/image_00116.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00132.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00176.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00177.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00187.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00191.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00202.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00203.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00204.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00212.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00222.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00239.jpg,passion flower,passion flower,100.0,True
-flowers/test/77/image_00248.jpg,passion flower,passion flower,99.97,True
-flowers/test/77/image_00251.jpg,passion flower,passion flower,100.0,True
-flowers/test/78/image_01830.jpg,lotus lotus,lotus lotus,85.7,True
-flowers/test/78/image_01843.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01848.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01855.jpg,lotus lotus,lotus lotus,99.89,True
-flowers/test/78/image_01856.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01874.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01888.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01893.jpg,lotus lotus,lotus lotus,99.94,True
-flowers/test/78/image_01903.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01919.jpg,lotus lotus,lotus lotus,99.89,True
-flowers/test/78/image_01928.jpg,lotus lotus,lotus lotus,99.94,True
-flowers/test/78/image_01931.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01949.jpg,lotus lotus,lotus lotus,100.0,True
-flowers/test/78/image_01953.jpg,lotus lotus,lotus lotus,99.82,True
-flowers/test/79/image_06708.jpg,toad lily,toad lily,99.46,True
-flowers/test/79/image_06720.jpg,toad lily,toad lily,99.96,True
-flowers/test/79/image_06726.jpg,toad lily,rose,34.02,False
-flowers/test/8/image_03291.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03295.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03299.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03314.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03319.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03320.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03347.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03357.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/8/image_03359.jpg,bird of paradise,bird of paradise,99.95,True
-flowers/test/8/image_03364.jpg,bird of paradise,bird of paradise,100.0,True
-flowers/test/80/image_01983.jpg,anthurium,anthurium,99.89,True
-flowers/test/80/image_01990.jpg,anthurium,anthurium,99.99,True
-flowers/test/80/image_01993.jpg,anthurium,anthurium,100.0,True
-flowers/test/80/image_01996.jpg,anthurium,anthurium,100.0,True
-flowers/test/80/image_02020.jpg,anthurium,magnolia,85.55,False
-flowers/test/80/image_02023.jpg,anthurium,anthurium,99.15,True
-flowers/test/80/image_02041.jpg,anthurium,anthurium,95.69,True
-flowers/test/80/image_02049.jpg,anthurium,anthurium,100.0,True
-flowers/test/80/image_02051.jpg,anthurium,anthurium,99.44,True
-flowers/test/80/image_02055.jpg,anthurium,anthurium,99.92,True
-flowers/test/80/image_02062.jpg,anthurium,anthurium,100.0,True
-flowers/test/81/image_00798.jpg,frangipani,frangipani,99.84,True
-flowers/test/81/image_00814.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00815.jpg,frangipani,frangipani,99.55,True
-flowers/test/81/image_00818.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00825.jpg,frangipani,frangipani,99.76,True
-flowers/test/81/image_00826.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00828.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00833.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00869.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00888.jpg,frangipani,frangipani,93.09,True
-flowers/test/81/image_00898.jpg,frangipani,frangipani,99.12,True
-flowers/test/81/image_00926.jpg,frangipani,frangipani,100.0,True
-flowers/test/81/image_00946.jpg,frangipani,frangipani,100.0,True
-flowers/test/82/image_01594.jpg,clematis,clematis,97.86,True
-flowers/test/82/image_01598.jpg,clematis,clematis,91.28,True
-flowers/test/82/image_01599.jpg,clematis,clematis,97.37,True
-flowers/test/82/image_01603.jpg,clematis,poinsettia,40.17,False
-flowers/test/82/image_01609.jpg,clematis,clematis,48.08,True
-flowers/test/82/image_01610.jpg,clematis,morning glory,46.23,False
-flowers/test/82/image_01614.jpg,clematis,clematis,94.76,True
-flowers/test/82/image_01618.jpg,clematis,clematis,98.92,True
-flowers/test/82/image_01650.jpg,clematis,clematis,87.36,True
-flowers/test/82/image_01653.jpg,clematis,clematis,44.57,True
-flowers/test/82/image_01661.jpg,clematis,clematis,98.47,True
-flowers/test/82/image_01662.jpg,clematis,clematis,53.43,True
-flowers/test/82/image_01666.jpg,clematis,morning glory,45.41,False
-flowers/test/82/image_01672.jpg,clematis,mallow,38.88,False
-flowers/test/82/image_01679.jpg,clematis,clematis,98.22,True
-flowers/test/82/image_01685.jpg,clematis,clematis,88.81,True
-flowers/test/82/image_01686.jpg,clematis,clematis,95.66,True
-flowers/test/83/image_01735.jpg,hibiscus,hibiscus,86.9,True
-flowers/test/83/image_01737.jpg,hibiscus,hibiscus,61.74,True
-flowers/test/83/image_01742.jpg,hibiscus,hibiscus,95.74,True
-flowers/test/83/image_01748.jpg,hibiscus,watercress,99.9,False
-flowers/test/83/image_01755.jpg,hibiscus,hibiscus,74.91,True
-flowers/test/83/image_01759.jpg,hibiscus,hibiscus,52.71,True
-flowers/test/83/image_01770.jpg,hibiscus,pelargonium,27.34,False
-flowers/test/83/image_01774.jpg,hibiscus,morning glory,61.73,False
-flowers/test/83/image_01777.jpg,hibiscus,hibiscus,99.98,True
-flowers/test/83/image_01789.jpg,hibiscus,morning glory,98.23,False
-flowers/test/83/image_01805.jpg,hibiscus,hibiscus,99.96,True
-flowers/test/83/image_01809.jpg,hibiscus,hibiscus,63.35,True
-flowers/test/83/image_01810.jpg,hibiscus,rose,55.17,False
-flowers/test/83/image_01818.jpg,hibiscus,hibiscus,99.56,True
-flowers/test/84/image_02557.jpg,columbine,columbine,73.86,True
-flowers/test/84/image_02563.jpg,columbine,columbine,97.44,True
-flowers/test/84/image_02568.jpg,columbine,columbine,96.44,True
-flowers/test/84/image_02572.jpg,columbine,gaura,14.91,False
-flowers/test/84/image_02576.jpg,columbine,clematis,60.15,False
-flowers/test/84/image_02581.jpg,columbine,columbine,99.62,True
-flowers/test/84/image_02583.jpg,columbine,columbine,46.73,True
-flowers/test/84/image_02586.jpg,columbine,columbine,99.96,True
-flowers/test/84/image_02613.jpg,columbine,cape flower,82.05,False
-flowers/test/84/image_02615.jpg,columbine,lenten rose,63.23,False
-flowers/test/85/image_04786.jpg,desert-rose,mallow,23.25,False
-flowers/test/85/image_04797.jpg,desert-rose,desert-rose,80.22,True
-flowers/test/85/image_04801.jpg,desert-rose,desert-rose,83.5,True
-flowers/test/85/image_04805.jpg,desert-rose,rose,67.82,False
-flowers/test/85/image_04806.jpg,desert-rose,desert-rose,61.1,True
-flowers/test/85/image_04808.jpg,desert-rose,desert-rose,76.6,True
-flowers/test/85/image_04810.jpg,desert-rose,desert-rose,96.68,True
-flowers/test/85/image_04814.jpg,desert-rose,cyclamen,90.68,False
-flowers/test/85/image_04819.jpg,desert-rose,cyclamen,44.88,False
-flowers/test/85/image_04825.jpg,desert-rose,desert-rose,48.86,True
-flowers/test/86/image_02865.jpg,tree mallow,tree mallow,88.08,True
-flowers/test/86/image_02873.jpg,tree mallow,tree mallow,89.28,True
-flowers/test/86/image_02893.jpg,tree mallow,tree mallow,91.63,True
-flowers/test/86/image_02910.jpg,tree mallow,tree mallow,99.92,True
-flowers/test/86/image_02912.jpg,tree mallow,tree mallow,94.83,True
-flowers/test/87/image_05462.jpg,magnolia,magnolia,96.22,True
-flowers/test/87/image_05466.jpg,magnolia,magnolia,99.15,True
-flowers/test/87/image_05469.jpg,magnolia,magnolia,100.0,True
-flowers/test/87/image_05485.jpg,magnolia,magnolia,100.0,True
-flowers/test/87/image_05488.jpg,magnolia,magnolia,65.26,True
-flowers/test/87/image_05493.jpg,magnolia,magnolia,100.0,True
-flowers/test/88/image_00457.jpg,cyclamen,moon orchid,35.65,False
-flowers/test/88/image_00467.jpg,cyclamen,cyclamen,43.31,True
-flowers/test/88/image_00474.jpg,cyclamen,cyclamen,100.0,True
-flowers/test/88/image_00477.jpg,cyclamen,cyclamen,95.71,True
-flowers/test/88/image_00482.jpg,cyclamen,cyclamen,99.94,True
-flowers/test/88/image_00520.jpg,cyclamen,cyclamen,100.0,True
-flowers/test/88/image_00526.jpg,cyclamen,cyclamen,80.8,True
-flowers/test/88/image_00540.jpg,cyclamen,cyclamen,100.0,True
-flowers/test/88/image_00551.jpg,cyclamen,cyclamen,99.44,True
-flowers/test/88/image_00563.jpg,cyclamen,cyclamen,96.19,True
-flowers/test/88/image_00582.jpg,cyclamen,cyclamen,98.24,True
-flowers/test/88/image_00584.jpg,cyclamen,cyclamen,95.16,True
-flowers/test/88/image_00594.jpg,cyclamen,cyclamen,99.99,True
-flowers/test/89/image_00610.jpg,watercress,watercress,58.14,True
-flowers/test/89/image_00617.jpg,watercress,watercress,98.92,True
-flowers/test/89/image_00634.jpg,watercress,watercress,88.63,True
-flowers/test/89/image_00645.jpg,watercress,watercress,99.99,True
-flowers/test/89/image_00654.jpg,watercress,watercress,99.96,True
-flowers/test/89/image_00676.jpg,watercress,watercress,97.64,True
-flowers/test/89/image_00699.jpg,watercress,watercress,99.97,True
-flowers/test/89/image_00708.jpg,watercress,watercress,100.0,True
-flowers/test/89/image_00724.jpg,watercress,watercress,100.0,True
-flowers/test/89/image_00726.jpg,watercress,watercress,99.83,True
-flowers/test/89/image_00740.jpg,watercress,watercress,94.93,True
-flowers/test/89/image_00745.jpg,watercress,watercress,99.25,True
-flowers/test/89/image_00755.jpg,watercress,watercress,99.87,True
-flowers/test/89/image_00756.jpg,watercress,watercress,99.9,True
-flowers/test/89/image_00779.jpg,watercress,watercress,90.49,True
-flowers/test/9/image_06410.jpg,monkshood,monkshood,38.6,True
-flowers/test/9/image_06413.jpg,monkshood,stemless gentian,80.68,False
-flowers/test/90/image_04405.jpg,canna lily,canna lily,99.0,True
-flowers/test/90/image_04407.jpg,canna lily,canna lily,46.88,True
-flowers/test/90/image_04417.jpg,canna lily,sword lily,51.6,False
-flowers/test/90/image_04420.jpg,canna lily,canna lily,99.93,True
-flowers/test/90/image_04426.jpg,canna lily,canna lily,61.45,True
-flowers/test/90/image_04428.jpg,canna lily,canna lily,90.02,True
-flowers/test/90/image_04430.jpg,canna lily,buttercup,89.89,False
-flowers/test/90/image_04431.jpg,canna lily,bishop of llandaff,63.75,False
-flowers/test/90/image_04432.jpg,canna lily,canna lily,99.57,True
-flowers/test/90/image_04458.jpg,canna lily,canna lily,97.62,True
-flowers/test/90/image_04459.jpg,canna lily,canna lily,94.54,True
-flowers/test/90/image_04468.jpg,canna lily,canna lily,99.05,True
-flowers/test/90/image_04469.jpg,canna lily,canna lily,43.34,True
-flowers/test/90/image_04473.jpg,canna lily,canna lily,92.58,True
-flowers/test/91/image_04851.jpg,hippeastrum,lotus lotus,52.65,False
-flowers/test/91/image_04856.jpg,hippeastrum,hippeastrum,96.24,True
-flowers/test/91/image_04860.jpg,hippeastrum,hippeastrum,91.4,True
-flowers/test/91/image_04870.jpg,hippeastrum,hippeastrum,74.96,True
-flowers/test/91/image_04875.jpg,hippeastrum,hippeastrum,72.55,True
-flowers/test/91/image_04883.jpg,hippeastrum,hippeastrum,91.6,True
-flowers/test/91/image_04890.jpg,hippeastrum,hippeastrum,99.69,True
-flowers/test/91/image_08061.jpg,hippeastrum,hippeastrum,99.84,True
-flowers/test/92/image_03032.jpg,bee balm,cape flower,92.67,False
-flowers/test/92/image_03039.jpg,bee balm,bee balm,82.87,True
-flowers/test/92/image_03041.jpg,bee balm,bee balm,100.0,True
-flowers/test/92/image_03044.jpg,bee balm,pincushion flower,43.25,False
-flowers/test/92/image_03048.jpg,bee balm,bee balm,99.99,True
-flowers/test/92/image_03049.jpg,bee balm,bee balm,100.0,True
-flowers/test/92/image_03052.jpg,bee balm,bee balm,100.0,True
-flowers/test/92/image_03054.jpg,bee balm,bee balm,99.99,True
-flowers/test/92/image_03056.jpg,bee balm,bee balm,98.19,True
-flowers/test/92/image_03058.jpg,bee balm,bee balm,97.93,True
-flowers/test/92/image_03075.jpg,bee balm,great masterwort,89.81,False
-flowers/test/93/image_06014.jpg,ball moss,ball moss,18.85,True
-flowers/test/93/image_06017.jpg,ball moss,ball moss,97.11,True
-flowers/test/93/image_06021.jpg,ball moss,ball moss,97.86,True
-flowers/test/93/image_06031.jpg,ball moss,cyclamen,27.72,False
-flowers/test/93/image_06033.jpg,ball moss,ball moss,94.21,True
-flowers/test/93/image_06037.jpg,ball moss,ball moss,99.61,True
-flowers/test/94/image_07308.jpg,foxglove,foxglove,100.0,True
-flowers/test/94/image_07327.jpg,foxglove,foxglove,99.99,True
-flowers/test/94/image_07333.jpg,foxglove,foxglove,73.0,True
-flowers/test/94/image_07346.jpg,foxglove,cyclamen,56.98,False
-flowers/test/94/image_07352.jpg,foxglove,foxglove,100.0,True
-flowers/test/94/image_07357.jpg,foxglove,foxglove,97.77,True
-flowers/test/94/image_07358.jpg,foxglove,cape flower,75.6,False
-flowers/test/94/image_07361.jpg,foxglove,foxglove,100.0,True
-flowers/test/94/image_07370.jpg,foxglove,foxglove,99.99,True
-flowers/test/94/image_07388.jpg,foxglove,foxglove,74.86,True
-flowers/test/94/image_07395.jpg,foxglove,foxglove,61.66,True
-flowers/test/94/image_07399.jpg,foxglove,foxglove,99.98,True
-flowers/test/94/image_07400.jpg,foxglove,foxglove,100.0,True
-flowers/test/94/image_07415.jpg,foxglove,foxglove,99.98,True
-flowers/test/94/image_07434.jpg,foxglove,foxglove,100.0,True
-flowers/test/94/image_07436.jpg,foxglove,foxglove,99.86,True
-flowers/test/95/image_07468.jpg,bougainvillea,bougainvillea,99.97,True
-flowers/test/95/image_07470.jpg,bougainvillea,bougainvillea,41.24,True
-flowers/test/95/image_07472.jpg,bougainvillea,bougainvillea,97.17,True
-flowers/test/95/image_07487.jpg,bougainvillea,sweet pea,41.16,False
-flowers/test/95/image_07505.jpg,bougainvillea,rose,42.72,False
-flowers/test/95/image_07508.jpg,bougainvillea,bougainvillea,45.57,True
-flowers/test/95/image_07514.jpg,bougainvillea,bougainvillea,99.84,True
-flowers/test/95/image_07519.jpg,bougainvillea,bougainvillea,98.07,True
-flowers/test/95/image_07536.jpg,bougainvillea,bougainvillea,76.79,True
-flowers/test/95/image_07550.jpg,bougainvillea,bougainvillea,91.75,True
-flowers/test/95/image_07551.jpg,bougainvillea,bougainvillea,60.12,True
-flowers/test/95/image_07561.jpg,bougainvillea,bougainvillea,99.6,True
-flowers/test/95/image_07573.jpg,bougainvillea,bougainvillea,73.24,True
-flowers/test/95/image_07584.jpg,bougainvillea,bougainvillea,99.96,True
-flowers/test/96/image_07596.jpg,camellia,rose,46.51,False
-flowers/test/96/image_07597.jpg,camellia,camellia,77.91,True
-flowers/test/96/image_07606.jpg,camellia,camellia,99.84,True
-flowers/test/96/image_07622.jpg,camellia,camellia,84.8,True
-flowers/test/96/image_07646.jpg,camellia,watercress,79.54,False
-flowers/test/96/image_07668.jpg,camellia,camellia,99.47,True
-flowers/test/96/image_07672.jpg,camellia,corn poppy,53.85,False
-flowers/test/96/image_07676.jpg,camellia,mallow,73.88,False
-flowers/test/96/image_07683.jpg,camellia,mallow,98.52,False
-flowers/test/97/image_07696.jpg,mallow,mallow,90.71,True
-flowers/test/97/image_07708.jpg,mallow,mallow,77.55,True
-flowers/test/97/image_07709.jpg,mallow,mallow,83.67,True
-flowers/test/97/image_07719.jpg,mallow,mallow,99.73,True
-flowers/test/97/image_07737.jpg,mallow,mallow,56.83,True
-flowers/test/98/image_07753.jpg,mexican petunia,mexican petunia,98.67,True
-flowers/test/98/image_07758.jpg,mexican petunia,watercress,32.2,False
-flowers/test/98/image_07777.jpg,mexican petunia,petunia,52.82,False
-flowers/test/98/image_07787.jpg,mexican petunia,mexican petunia,98.3,True
-flowers/test/99/image_07833.jpg,bromelia,bromelia,99.99,True
-flowers/test/99/image_07838.jpg,bromelia,bromelia,99.99,True
-flowers/test/99/image_07840.jpg,bromelia,bromelia,91.1,True
-flowers/test/99/image_07854.jpg,bromelia,bromelia,99.89,True
-flowers/test/99/image_07857.jpg,bromelia,bromelia,100.0,True
-flowers/test/99/image_07871.jpg,bromelia,bromelia,99.98,True
-flowers/test/99/image_07874.jpg,bromelia,bromelia,98.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/1/image_06743.jpg,pink primrose,pink primrose,99.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/1/image_06752.jpg,pink primrose,pink primrose,57.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/1/image_06754.jpg,pink primrose,mallow,27.33,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/1/image_06760.jpg,pink primrose,pink primrose,25.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/1/image_06764.jpg,pink primrose,pink primrose,94.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/10/image_07090.jpg,globe thistle,globe thistle,97.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/10/image_07104.jpg,globe thistle,globe thistle,96.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/10/image_07117.jpg,globe thistle,globe thistle,94.05,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07896.jpg,blanket flower,blanket flower,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07897.jpg,blanket flower,blanket flower,99.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07899.jpg,blanket flower,blanket flower,99.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07902.jpg,blanket flower,blanket flower,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07926.jpg,blanket flower,blanket flower,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07936.jpg,blanket flower,blanket flower,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07938.jpg,blanket flower,blanket flower,98.65,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/100/image_07939.jpg,blanket flower,blanket flower,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/101/image_07949.jpg,trumpet creeper,trumpet creeper,96.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/101/image_07952.jpg,trumpet creeper,trumpet creeper,51.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/101/image_07983.jpg,trumpet creeper,trumpet creeper,55.02,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/101/image_07988.jpg,trumpet creeper,trumpet creeper,84.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08004.jpg,blackberry lily,blackberry lily,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08012.jpg,blackberry lily,blackberry lily,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08015.jpg,blackberry lily,blackberry lily,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08023.jpg,blackberry lily,blackberry lily,99.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08030.jpg,blackberry lily,blackberry lily,97.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/102/image_08042.jpg,blackberry lily,blackberry lily,99.28,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03098.jpg,snapdragon,snapdragon,28.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03115.jpg,snapdragon,petunia,23.76,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03130.jpg,snapdragon,snapdragon,40.34,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03141.jpg,snapdragon,snapdragon,65.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03147.jpg,snapdragon,snapdragon,77.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03151.jpg,snapdragon,snapdragon,98.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03165.jpg,snapdragon,snapdragon,32.27,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03176.jpg,snapdragon,snapdragon,53.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/11/image_03177.jpg,snapdragon,snapdragon,68.7,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_03994.jpg,colt's foot,colt's foot,97.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_03996.jpg,colt's foot,colt's foot,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04012.jpg,colt's foot,colt's foot,19.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04014.jpg,colt's foot,colt's foot,95.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04016.jpg,colt's foot,colt's foot,30.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04023.jpg,colt's foot,colt's foot,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04052.jpg,colt's foot,colt's foot,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04059.jpg,colt's foot,colt's foot,99.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/12/image_04077.jpg,colt's foot,colt's foot,98.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05745.jpg,king protea,king protea,94.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05761.jpg,king protea,king protea,91.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05767.jpg,king protea,water lily,52.37,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05769.jpg,king protea,king protea,89.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05775.jpg,king protea,king protea,98.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/13/image_05787.jpg,king protea,cyclamen,41.81,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/14/image_06052.jpg,spear thistle,spear thistle,96.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/14/image_06083.jpg,spear thistle,spear thistle,91.33,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/14/image_06091.jpg,spear thistle,spear thistle,98.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/15/image_06351.jpg,yellow iris,yellow iris,93.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/15/image_06360.jpg,yellow iris,yellow iris,97.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/15/image_06369.jpg,yellow iris,yellow iris,95.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/15/image_06374.jpg,yellow iris,bird of paradise,35.71,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/16/image_06657.jpg,globe-flower,globe-flower,97.23,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/16/image_06670.jpg,globe-flower,rose,36.85,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/16/image_06673.jpg,globe-flower,globe-flower,84.28,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03830.jpg,purple coneflower,purple coneflower,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03846.jpg,purple coneflower,purple coneflower,99.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03855.jpg,purple coneflower,purple coneflower,99.47,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03861.jpg,purple coneflower,purple coneflower,99.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03864.jpg,purple coneflower,purple coneflower,97.64,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03872.jpg,purple coneflower,purple coneflower,99.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03893.jpg,purple coneflower,purple coneflower,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03906.jpg,purple coneflower,purple coneflower,98.11,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/17/image_03911.jpg,purple coneflower,purple coneflower,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04254.jpg,peruvian lily,peruvian lily,95.54,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04256.jpg,peruvian lily,peruvian lily,85.36,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04272.jpg,peruvian lily,peruvian lily,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04277.jpg,peruvian lily,peruvian lily,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04292.jpg,peruvian lily,peruvian lily,70.67,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/18/image_04322.jpg,peruvian lily,peruvian lily,74.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06155.jpg,balloon flower,balloon flower,85.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06159.jpg,balloon flower,clematis,66.49,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06170.jpg,balloon flower,clematis,69.72,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06175.jpg,balloon flower,balloon flower,94.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06186.jpg,balloon flower,balloon flower,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06196.jpg,balloon flower,balloon flower,96.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/19/image_06197.jpg,balloon flower,balloon flower,98.51,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/2/image_05100.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/2/image_05107.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,99.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/2/image_05109.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,90.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/2/image_05125.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/2/image_05133.jpg,hard-leaved pocket orchid,hard-leaved pocket orchid,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/20/image_04910.jpg,giant white arum lily,giant white arum lily,43.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/20/image_04912.jpg,giant white arum lily,giant white arum lily,75.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/20/image_04938.jpg,giant white arum lily,thorn apple,37.98,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/21/image_06805.jpg,fire lily,columbine,63.23,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/21/image_06807.jpg,fire lily,cape flower,78.76,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/22/image_05360.jpg,pincushion flower,pincushion flower,97.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/22/image_05362.jpg,pincushion flower,pincushion flower,78.47,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/22/image_05366.jpg,pincushion flower,pincushion flower,98.21,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/22/image_05391.jpg,pincushion flower,pincushion flower,59.46,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03382.jpg,fritillary,fritillary,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03390.jpg,fritillary,fritillary,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03409.jpg,fritillary,fritillary,99.69,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03414.jpg,fritillary,fritillary,41.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03440.jpg,fritillary,fritillary,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03442.jpg,fritillary,fritillary,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/23/image_03454.jpg,fritillary,fritillary,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/24/image_06815.jpg,red ginger,red ginger,56.43,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/24/image_06849.jpg,red ginger,red ginger,98.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/25/image_06580.jpg,grape hyacinth,grape hyacinth,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/25/image_06582.jpg,grape hyacinth,grape hyacinth,97.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/25/image_06583.jpg,grape hyacinth,grape hyacinth,92.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/25/image_06593.jpg,grape hyacinth,grape hyacinth,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/25/image_06611.jpg,grape hyacinth,grape hyacinth,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/26/image_06497.jpg,corn poppy,corn poppy,92.21,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/26/image_06498.jpg,corn poppy,geranium,54.73,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/26/image_06500.jpg,corn poppy,corn poppy,95.51,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/26/image_06514.jpg,corn poppy,corn poppy,77.51,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/26/image_06526.jpg,corn poppy,rose,42.02,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/27/image_06864.jpg,prince of wales feathers,prince of wales feathers,88.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/27/image_06871.jpg,prince of wales feathers,prince of wales feathers,74.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/27/image_06887.jpg,prince of wales feathers,prince of wales feathers,42.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05214.jpg,stemless gentian,stemless gentian,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05230.jpg,stemless gentian,stemless gentian,90.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05242.jpg,stemless gentian,stemless gentian,99.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05253.jpg,stemless gentian,stemless gentian,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05270.jpg,stemless gentian,stemless gentian,99.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/28/image_05277.jpg,stemless gentian,stemless gentian,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04083.jpg,artichoke,artichoke,97.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04090.jpg,artichoke,spear thistle,64.25,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04095.jpg,artichoke,artichoke,99.76,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04112.jpg,artichoke,artichoke,98.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04124.jpg,artichoke,artichoke,99.28,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04137.jpg,artichoke,artichoke,99.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04142.jpg,artichoke,artichoke,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04145.jpg,artichoke,artichoke,64.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/29/image_04146.jpg,artichoke,artichoke,99.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/3/image_06634.jpg,canterbury bells,canterbury bells,93.02,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/3/image_06641.jpg,canterbury bells,sweet pea,40.14,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03466.jpg,sweet william,sweet william,93.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03481.jpg,sweet william,sweet william,71.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03482.jpg,sweet william,sweet william,97.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03484.jpg,sweet william,sweet william,98.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03488.jpg,sweet william,sweet william,88.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03489.jpg,sweet william,sweet william,91.65,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03506.jpg,sweet william,sweet william,84.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03509.jpg,sweet william,sweet william,99.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03510.jpg,sweet william,sweet william,99.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03512.jpg,sweet william,sweet william,99.09,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03528.jpg,sweet william,sweet william,99.4,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03538.jpg,sweet william,sweet william,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03541.jpg,sweet william,sweet william,63.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/30/image_03542.jpg,sweet william,sweet william,95.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/31/image_06903.jpg,carnation,petunia,39.52,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/31/image_08070.jpg,carnation,foxglove,38.91,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05591.jpg,garden phlox,desert-rose,41.02,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05592.jpg,garden phlox,garden phlox,93.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05595.jpg,garden phlox,garden phlox,30.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05602.jpg,garden phlox,garden phlox,76.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05610.jpg,garden phlox,garden phlox,91.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/32/image_05614.jpg,garden phlox,cyclamen,38.32,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06454.jpg,love in the mist,love in the mist,64.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06456.jpg,love in the mist,love in the mist,91.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06457.jpg,love in the mist,love in the mist,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06460.jpg,love in the mist,love in the mist,99.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06470.jpg,love in the mist,love in the mist,97.41,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06478.jpg,love in the mist,love in the mist,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06479.jpg,love in the mist,love in the mist,85.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/33/image_06486.jpg,love in the mist,love in the mist,99.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/34/image_06929.jpg,mexican aster,mexican aster,91.05,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/34/image_06933.jpg,mexican aster,mexican aster,73.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/34/image_06941.jpg,mexican aster,mexican aster,96.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/34/image_06954.jpg,mexican aster,osteospermum,79.61,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/34/image_06961.jpg,mexican aster,osteospermum,56.66,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_06984.jpg,alpine sea holly,alpine sea holly,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_06986.jpg,alpine sea holly,alpine sea holly,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_06992.jpg,alpine sea holly,alpine sea holly,99.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_07006.jpg,alpine sea holly,alpine sea holly,99.1,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_08084.jpg,alpine sea holly,alpine sea holly,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/35/image_08088.jpg,alpine sea holly,alpine sea holly,99.24,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04334.jpg,ruby-lipped cattleya,ruby-lipped cattleya,97.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04344.jpg,ruby-lipped cattleya,ruby-lipped cattleya,55.27,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04364.jpg,ruby-lipped cattleya,ruby-lipped cattleya,91.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04373.jpg,ruby-lipped cattleya,ruby-lipped cattleya,98.65,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04382.jpg,ruby-lipped cattleya,ruby-lipped cattleya,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04392.jpg,ruby-lipped cattleya,ruby-lipped cattleya,36.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/36/image_04400.jpg,ruby-lipped cattleya,sword lily,85.45,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03734.jpg,cape flower,magnolia,56.81,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03741.jpg,cape flower,cape flower,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03783.jpg,cape flower,cape flower,97.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03789.jpg,cape flower,cape flower,99.31,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03807.jpg,cape flower,cape flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03811.jpg,cape flower,cape flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03815.jpg,cape flower,cape flower,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/37/image_03821.jpg,cape flower,cape flower,96.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05796.jpg,great masterwort,great masterwort,99.34,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05797.jpg,great masterwort,great masterwort,97.26,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05799.jpg,great masterwort,great masterwort,99.79,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05806.jpg,great masterwort,great masterwort,85.7,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05812.jpg,great masterwort,great masterwort,99.3,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05824.jpg,great masterwort,great masterwort,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05825.jpg,great masterwort,great masterwort,99.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/38/image_05833.jpg,great masterwort,great masterwort,97.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/39/image_07010.jpg,siam tulip,foxglove,18.0,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/39/image_07016.jpg,siam tulip,siam tulip,82.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/39/image_07018.jpg,siam tulip,sword lily,52.42,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/39/image_07035.jpg,siam tulip,siam tulip,81.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/39/image_07043.jpg,siam tulip,siam tulip,51.33,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05636.jpg,sweet pea,sweet pea,46.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05637.jpg,sweet pea,sweet pea,58.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05640.jpg,sweet pea,sweet pea,94.33,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05653.jpg,sweet pea,monkshood,98.42,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05658.jpg,sweet pea,cyclamen,45.56,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/4/image_05678.jpg,sweet pea,rose,40.74,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04563.jpg,lenten rose,lenten rose,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04568.jpg,lenten rose,japanese anemone,44.6,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04573.jpg,lenten rose,hibiscus,61.78,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04582.jpg,lenten rose,lenten rose,91.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04586.jpg,lenten rose,lenten rose,91.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04587.jpg,lenten rose,lenten rose,87.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04588.jpg,lenten rose,lenten rose,97.6,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/40/image_04609.jpg,lenten rose,lenten rose,32.09,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02193.jpg,barbeton daisy,barbeton daisy,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02200.jpg,barbeton daisy,barbeton daisy,99.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02222.jpg,barbeton daisy,barbeton daisy,55.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02237.jpg,barbeton daisy,oxeye daisy,94.08,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02245.jpg,barbeton daisy,barbeton daisy,99.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02251.jpg,barbeton daisy,barbeton daisy,85.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02257.jpg,barbeton daisy,barbeton daisy,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02261.jpg,barbeton daisy,barbeton daisy,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02263.jpg,barbeton daisy,barbeton daisy,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02266.jpg,barbeton daisy,barbeton daisy,99.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02270.jpg,barbeton daisy,english marigold,73.07,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02302.jpg,barbeton daisy,barbeton daisy,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02305.jpg,barbeton daisy,barbeton daisy,49.46,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/41/image_02306.jpg,barbeton daisy,barbeton daisy,96.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/42/image_05696.jpg,daffodil,daffodil,96.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/42/image_05711.jpg,daffodil,daffodil,99.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/42/image_05730.jpg,daffodil,daffodil,87.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/42/image_05731.jpg,daffodil,sword lily,25.21,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02329.jpg,sword lily,sword lily,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02335.jpg,sword lily,sword lily,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02346.jpg,sword lily,sword lily,59.3,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02349.jpg,sword lily,sword lily,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02365.jpg,sword lily,sword lily,98.14,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02369.jpg,sword lily,sword lily,99.7,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02370.jpg,sword lily,sword lily,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02371.jpg,sword lily,sword lily,93.09,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02386.jpg,sword lily,sword lily,99.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02394.jpg,sword lily,sword lily,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02400.jpg,sword lily,sword lily,99.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02412.jpg,sword lily,sword lily,95.1,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02426.jpg,sword lily,sword lily,97.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02431.jpg,sword lily,sword lily,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02433.jpg,sword lily,cyclamen,64.08,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/43/image_02435.jpg,sword lily,sword lily,83.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01502.jpg,poinsettia,poinsettia,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01512.jpg,poinsettia,water lily,71.15,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01515.jpg,poinsettia,poinsettia,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01516.jpg,poinsettia,poinsettia,99.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01518.jpg,poinsettia,poinsettia,99.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01527.jpg,poinsettia,poinsettia,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01530.jpg,poinsettia,poinsettia,99.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01548.jpg,poinsettia,poinsettia,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01560.jpg,poinsettia,poinsettia,99.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01564.jpg,poinsettia,poinsettia,94.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/44/image_01578.jpg,poinsettia,poinsettia,97.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/45/image_07139.jpg,bolero deep blue,bolero deep blue,99.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/45/image_07140.jpg,bolero deep blue,magnolia,36.45,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/45/image_07142.jpg,bolero deep blue,bolero deep blue,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00958.jpg,wallflower,wallflower,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00961.jpg,wallflower,wallflower,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00969.jpg,wallflower,wallflower,99.7,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00970.jpg,wallflower,wallflower,90.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00976.jpg,wallflower,wallflower,99.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00990.jpg,wallflower,wallflower,99.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00996.jpg,wallflower,wallflower,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_00999.jpg,wallflower,wallflower,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01003.jpg,wallflower,wallflower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01026.jpg,wallflower,wallflower,94.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01038.jpg,wallflower,wallflower,58.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01061.jpg,wallflower,wallflower,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01071.jpg,wallflower,wallflower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01077.jpg,wallflower,wallflower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01078.jpg,wallflower,wallflower,99.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01090.jpg,wallflower,wallflower,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01092.jpg,wallflower,wallflower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01109.jpg,wallflower,wallflower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01115.jpg,wallflower,wallflower,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01119.jpg,wallflower,wallflower,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/46/image_01125.jpg,wallflower,wallflower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/47/image_04966.jpg,marigold,marigold,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/47/image_04993.jpg,marigold,marigold,99.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/47/image_05013.jpg,marigold,marigold,99.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/48/image_04627.jpg,buttercup,buttercup,99.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/48/image_04663.jpg,buttercup,buttercup,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/48/image_04665.jpg,buttercup,buttercup,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/48/image_04667.jpg,buttercup,buttercup,99.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/48/image_04671.jpg,buttercup,buttercup,98.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/49/image_06202.jpg,oxeye daisy,oxeye daisy,78.46,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/49/image_06213.jpg,oxeye daisy,oxeye daisy,99.35,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/49/image_06215.jpg,oxeye daisy,oxeye daisy,99.24,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/5/image_05159.jpg,english marigold,english marigold,57.62,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/5/image_05166.jpg,english marigold,english marigold,62.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/5/image_05169.jpg,english marigold,english marigold,81.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/5/image_05186.jpg,english marigold,english marigold,99.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06297.jpg,common dandelion,colt's foot,52.26,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06318.jpg,common dandelion,common dandelion,92.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06319.jpg,common dandelion,common dandelion,90.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06320.jpg,common dandelion,colt's foot,54.69,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06321.jpg,common dandelion,common dandelion,80.35,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06541.jpg,common dandelion,common dandelion,92.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06546.jpg,common dandelion,common dandelion,93.1,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/50/image_06547.jpg,common dandelion,common dandelion,64.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01314.jpg,petunia,thorn apple,36.78,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01316.jpg,petunia,petunia,76.19,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01328.jpg,petunia,petunia,91.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01335.jpg,petunia,petunia,98.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01340.jpg,petunia,petunia,79.2,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01362.jpg,petunia,petunia,99.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01370.jpg,petunia,petunia,82.64,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01388.jpg,petunia,petunia,99.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01406.jpg,petunia,petunia,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01407.jpg,petunia,petunia,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01457.jpg,petunia,petunia,99.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01468.jpg,petunia,petunia,99.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_01474.jpg,petunia,petunia,75.33,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03926.jpg,petunia,cyclamen,65.61,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03939.jpg,petunia,petunia,45.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03954.jpg,petunia,petunia,51.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03960.jpg,petunia,petunia,66.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03968.jpg,petunia,petunia,99.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03973.jpg,petunia,sword lily,66.91,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03980.jpg,petunia,petunia,89.34,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03984.jpg,petunia,petunia,96.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03985.jpg,petunia,petunia,94.43,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03986.jpg,petunia,petunia,42.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/51/image_03989.jpg,petunia,petunia,64.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04160.jpg,wild pansy,wild pansy,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04167.jpg,wild pansy,wild pansy,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04168.jpg,wild pansy,wild pansy,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04169.jpg,wild pansy,wild pansy,90.36,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04181.jpg,wild pansy,wild pansy,98.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04200.jpg,wild pansy,wild pansy,99.56,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04221.jpg,wild pansy,wild pansy,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/52/image_04240.jpg,wild pansy,wild pansy,74.19,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03645.jpg,primula,primula,90.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03649.jpg,primula,wallflower,49.46,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03652.jpg,primula,wallflower,85.91,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03653.jpg,primula,primula,75.26,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03662.jpg,primula,primula,67.44,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03669.jpg,primula,primula,81.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03672.jpg,primula,primula,99.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03677.jpg,primula,primula,50.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03689.jpg,primula,primula,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03712.jpg,primula,primula,82.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03714.jpg,primula,primula,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03717.jpg,primula,primula,76.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03718.jpg,primula,primula,73.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/53/image_03724.jpg,primula,primula,99.53,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/54/image_05402.jpg,sunflower,sunflower,98.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/54/image_05413.jpg,sunflower,sunflower,99.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/54/image_05430.jpg,sunflower,black-eyed susan,30.69,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/54/image_05440.jpg,sunflower,sunflower,87.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04701.jpg,pelargonium,pelargonium,60.09,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04707.jpg,pelargonium,pelargonium,95.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04731.jpg,pelargonium,pelargonium,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04733.jpg,pelargonium,pelargonium,95.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04740.jpg,pelargonium,pelargonium,99.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04742.jpg,pelargonium,pelargonium,96.62,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/55/image_04747.jpg,pelargonium,pelargonium,99.1,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02772.jpg,bishop of llandaff,bishop of llandaff,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02779.jpg,bishop of llandaff,bishop of llandaff,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02785.jpg,bishop of llandaff,bishop of llandaff,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02808.jpg,bishop of llandaff,bishop of llandaff,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02821.jpg,bishop of llandaff,bishop of llandaff,98.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02825.jpg,bishop of llandaff,bishop of llandaff,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02841.jpg,bishop of llandaff,bishop of llandaff,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/56/image_02844.jpg,bishop of llandaff,bishop of llandaff,99.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07234.jpg,gaura,gaura,99.6,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07241.jpg,gaura,gaura,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07242.jpg,gaura,gaura,99.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07250.jpg,gaura,gaura,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07266.jpg,gaura,gaura,99.7,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_07267.jpg,gaura,gaura,95.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_08127.jpg,gaura,gaura,99.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_08129.jpg,gaura,gaura,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_08133.jpg,gaura,gaura,65.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_08134.jpg,gaura,gaura,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/57/image_08144.jpg,gaura,gaura,34.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02663.jpg,geranium,geranium,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02672.jpg,geranium,geranium,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02677.jpg,geranium,geranium,99.53,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02681.jpg,geranium,geranium,99.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02687.jpg,geranium,geranium,99.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02694.jpg,geranium,geranium,99.67,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02695.jpg,geranium,geranium,99.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02719.jpg,geranium,geranium,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02721.jpg,geranium,geranium,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02722.jpg,geranium,geranium,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02737.jpg,geranium,geranium,98.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02738.jpg,geranium,geranium,99.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02743.jpg,geranium,geranium,97.39,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/58/image_02752.jpg,geranium,geranium,99.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05020.jpg,orange dahlia,orange dahlia,99.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05033.jpg,orange dahlia,orange dahlia,99.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05038.jpg,orange dahlia,bishop of llandaff,70.55,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05039.jpg,orange dahlia,orange dahlia,97.39,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05052.jpg,orange dahlia,orange dahlia,99.76,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05064.jpg,orange dahlia,orange dahlia,99.54,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/59/image_05067.jpg,orange dahlia,orange dahlia,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07173.jpg,tiger lily,tiger lily,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07181.jpg,tiger lily,tiger lily,99.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07182.jpg,tiger lily,tiger lily,99.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07185.jpg,tiger lily,tiger lily,63.38,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07191.jpg,tiger lily,tiger lily,88.11,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07198.jpg,tiger lily,tiger lily,99.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_07199.jpg,tiger lily,tiger lily,63.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_08106.jpg,tiger lily,tiger lily,99.6,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/6/image_08108.jpg,tiger lily,tiger lily,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02932.jpg,pink-yellow dahlia,pink-yellow dahlia,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02933.jpg,pink-yellow dahlia,pink-yellow dahlia,99.51,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02958.jpg,pink-yellow dahlia,pink-yellow dahlia,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02971.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02977.jpg,pink-yellow dahlia,pink-yellow dahlia,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02978.jpg,pink-yellow dahlia,pink-yellow dahlia,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_02987.jpg,pink-yellow dahlia,pink-yellow dahlia,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_03000.jpg,pink-yellow dahlia,pink-yellow dahlia,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_03008.jpg,pink-yellow dahlia,pink-yellow dahlia,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/60/image_03026.jpg,pink-yellow dahlia,pink-yellow dahlia,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06248.jpg,cautleya spicata,cautleya spicata,99.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06249.jpg,cautleya spicata,cautleya spicata,95.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06251.jpg,cautleya spicata,cautleya spicata,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06266.jpg,cautleya spicata,cautleya spicata,95.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06271.jpg,cautleya spicata,cautleya spicata,99.56,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06279.jpg,cautleya spicata,cautleya spicata,96.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06284.jpg,cautleya spicata,cautleya spicata,94.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/61/image_06290.jpg,cautleya spicata,cautleya spicata,98.35,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/62/image_07269.jpg,japanese anemone,japanese anemone,75.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/62/image_07276.jpg,japanese anemone,japanese anemone,94.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/62/image_08172.jpg,japanese anemone,japanese anemone,68.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/62/image_08177.jpg,japanese anemone,japanese anemone,91.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/63/image_05875.jpg,black-eyed susan,black-eyed susan,98.34,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/63/image_05878.jpg,black-eyed susan,black-eyed susan,95.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/63/image_05882.jpg,black-eyed susan,black-eyed susan,96.36,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/63/image_05890.jpg,black-eyed susan,black-eyed susan,98.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/64/image_06099.jpg,silverbush,silverbush,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/64/image_06104.jpg,silverbush,silverbush,90.2,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/64/image_06130.jpg,silverbush,silverbush,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/64/image_06134.jpg,silverbush,silverbush,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/64/image_06138.jpg,silverbush,silverbush,98.06,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03188.jpg,californian poppy,californian poppy,93.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03197.jpg,californian poppy,californian poppy,99.76,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03211.jpg,californian poppy,californian poppy,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03243.jpg,californian poppy,californian poppy,99.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03252.jpg,californian poppy,californian poppy,92.26,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03258.jpg,californian poppy,californian poppy,94.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/65/image_03269.jpg,californian poppy,californian poppy,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/66/image_05537.jpg,osteospermum,osteospermum,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/66/image_05549.jpg,osteospermum,osteospermum,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/66/image_05562.jpg,osteospermum,osteospermum,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/66/image_05582.jpg,osteospermum,osteospermum,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/67/image_07056.jpg,spring crocus,spring crocus,46.44,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/67/image_07079.jpg,spring crocus,pink-yellow dahlia,32.19,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/67/image_07080.jpg,spring crocus,spring crocus,75.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/67/image_07082.jpg,spring crocus,spring crocus,96.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/68/image_05903.jpg,bearded iris,bearded iris,65.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/68/image_05927.jpg,bearded iris,bearded iris,93.62,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/68/image_05956.jpg,bearded iris,petunia,79.41,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/69/image_05959.jpg,windflower,windflower,34.63,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/69/image_05971.jpg,windflower,windflower,99.79,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/69/image_05994.jpg,windflower,windflower,99.76,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_07211.jpg,moon orchid,moon orchid,66.3,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_07215.jpg,moon orchid,moon orchid,87.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_07218.jpg,moon orchid,moon orchid,42.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_07219.jpg,moon orchid,lotus lotus,18.22,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_08099.jpg,moon orchid,moon orchid,92.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/7/image_08104.jpg,moon orchid,moon orchid,86.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/70/image_05308.jpg,tree poppy,tree poppy,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/70/image_05324.jpg,tree poppy,tree poppy,95.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/70/image_05330.jpg,tree poppy,tree poppy,99.28,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/70/image_05331.jpg,tree poppy,tree poppy,99.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04482.jpg,gazania,gazania,99.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04488.jpg,gazania,gazania,88.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04512.jpg,gazania,gazania,99.15,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04514.jpg,gazania,gazania,98.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04515.jpg,gazania,gazania,95.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04519.jpg,gazania,gazania,99.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04524.jpg,gazania,gazania,97.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04555.jpg,gazania,gazania,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/71/image_04557.jpg,gazania,gazania,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03547.jpg,azalea,azalea,81.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03575.jpg,azalea,azalea,99.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03593.jpg,azalea,azalea,85.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03599.jpg,azalea,sword lily,65.61,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03603.jpg,azalea,azalea,92.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03613.jpg,azalea,azalea,84.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03624.jpg,azalea,azalea,51.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03625.jpg,azalea,azalea,58.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03628.jpg,azalea,azalea,87.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03633.jpg,azalea,azalea,99.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/72/image_03635.jpg,azalea,azalea,72.24,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00258.jpg,water lily,water lily,99.69,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00260.jpg,water lily,water lily,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00277.jpg,water lily,water lily,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00282.jpg,water lily,water lily,98.39,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00284.jpg,water lily,water lily,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00288.jpg,water lily,water lily,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00291.jpg,water lily,water lily,99.12,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00294.jpg,water lily,water lily,99.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00303.jpg,water lily,water lily,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00319.jpg,water lily,water lily,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00320.jpg,water lily,water lily,96.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00324.jpg,water lily,water lily,96.06,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00330.jpg,water lily,lotus lotus,38.3,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00335.jpg,water lily,water lily,99.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00337.jpg,water lily,water lily,99.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00345.jpg,water lily,water lily,87.46,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00349.jpg,water lily,water lily,90.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00353.jpg,water lily,water lily,98.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00365.jpg,water lily,water lily,91.43,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00369.jpg,water lily,water lily,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00387.jpg,water lily,water lily,99.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00389.jpg,water lily,water lily,91.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00394.jpg,water lily,water lily,99.24,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00400.jpg,water lily,water lily,99.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00401.jpg,water lily,water lily,92.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00409.jpg,water lily,water lily,99.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00426.jpg,water lily,water lily,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/73/image_00445.jpg,water lily,water lily,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01151.jpg,rose,rose,98.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01165.jpg,rose,rose,64.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01173.jpg,rose,rose,78.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01191.jpg,rose,rose,99.2,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01200.jpg,rose,rose,94.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01209.jpg,rose,rose,89.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01213.jpg,rose,rose,97.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01249.jpg,rose,rose,97.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01254.jpg,rose,rose,66.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01256.jpg,rose,rose,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01276.jpg,rose,rose,98.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01305.jpg,rose,rose,68.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01307.jpg,rose,rose,68.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/74/image_01312.jpg,rose,rose,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02075.jpg,thorn apple,thorn apple,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02078.jpg,thorn apple,magnolia,55.43,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02085.jpg,thorn apple,thorn apple,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02088.jpg,thorn apple,thorn apple,98.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02111.jpg,thorn apple,thorn apple,99.41,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02115.jpg,thorn apple,thorn apple,99.73,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02119.jpg,thorn apple,thorn apple,99.3,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02135.jpg,thorn apple,thorn apple,99.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02144.jpg,thorn apple,thorn apple,98.31,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02154.jpg,thorn apple,thorn apple,99.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02157.jpg,thorn apple,thorn apple,99.11,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02167.jpg,thorn apple,thorn apple,84.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/75/image_02188.jpg,thorn apple,thorn apple,95.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/76/image_02472.jpg,morning glory,morning glory,80.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/76/image_02479.jpg,morning glory,morning glory,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/76/image_02484.jpg,morning glory,morning glory,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/76/image_02550.jpg,morning glory,morning glory,90.19,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00005.jpg,passion flower,passion flower,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00006.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00024.jpg,passion flower,passion flower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00025.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00029.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00050.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00060.jpg,passion flower,passion flower,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00065.jpg,passion flower,passion flower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00092.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00099.jpg,passion flower,passion flower,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00114.jpg,passion flower,passion flower,94.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00116.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00132.jpg,passion flower,passion flower,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00176.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00177.jpg,passion flower,passion flower,97.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00187.jpg,passion flower,passion flower,99.41,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00191.jpg,passion flower,passion flower,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00202.jpg,passion flower,passion flower,99.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00203.jpg,passion flower,passion flower,91.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00204.jpg,passion flower,passion flower,99.69,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00212.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00222.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00239.jpg,passion flower,passion flower,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00248.jpg,passion flower,passion flower,99.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/77/image_00251.jpg,passion flower,passion flower,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01830.jpg,lotus lotus,lotus lotus,98.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01843.jpg,lotus lotus,lotus lotus,99.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01848.jpg,lotus lotus,lotus lotus,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01855.jpg,lotus lotus,lotus lotus,88.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01856.jpg,lotus lotus,lotus lotus,95.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01874.jpg,lotus lotus,lotus lotus,69.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01888.jpg,lotus lotus,lotus lotus,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01893.jpg,lotus lotus,lotus lotus,81.75,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01903.jpg,lotus lotus,lotus lotus,94.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01919.jpg,lotus lotus,lotus lotus,97.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01928.jpg,lotus lotus,lotus lotus,99.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01931.jpg,lotus lotus,lotus lotus,86.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01949.jpg,lotus lotus,lotus lotus,96.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/78/image_01953.jpg,lotus lotus,lotus lotus,99.48,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/79/image_06708.jpg,toad lily,toad lily,88.44,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/79/image_06720.jpg,toad lily,toad lily,97.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/79/image_06726.jpg,toad lily,toad lily,62.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03291.jpg,bird of paradise,bird of paradise,99.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03295.jpg,bird of paradise,bird of paradise,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03299.jpg,bird of paradise,bird of paradise,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03314.jpg,bird of paradise,bird of paradise,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03319.jpg,bird of paradise,bird of paradise,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03320.jpg,bird of paradise,bird of paradise,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03347.jpg,bird of paradise,bird of paradise,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03357.jpg,bird of paradise,bird of paradise,99.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03359.jpg,bird of paradise,bird of paradise,99.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/8/image_03364.jpg,bird of paradise,bird of paradise,98.91,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_01983.jpg,anthurium,anthurium,99.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_01990.jpg,anthurium,anthurium,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_01993.jpg,anthurium,anthurium,98.13,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_01996.jpg,anthurium,anthurium,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02020.jpg,anthurium,anthurium,98.11,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02023.jpg,anthurium,anthurium,99.52,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02041.jpg,anthurium,anthurium,99.93,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02049.jpg,anthurium,anthurium,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02051.jpg,anthurium,anthurium,81.53,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02055.jpg,anthurium,anthurium,99.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/80/image_02062.jpg,anthurium,anthurium,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00798.jpg,frangipani,frangipani,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00814.jpg,frangipani,frangipani,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00815.jpg,frangipani,frangipani,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00818.jpg,frangipani,frangipani,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00825.jpg,frangipani,rose,38.09,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00826.jpg,frangipani,frangipani,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00828.jpg,frangipani,frangipani,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00833.jpg,frangipani,frangipani,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00869.jpg,frangipani,frangipani,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00888.jpg,frangipani,frangipani,99.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00898.jpg,frangipani,frangipani,99.6,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00926.jpg,frangipani,frangipani,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/81/image_00946.jpg,frangipani,frangipani,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01594.jpg,clematis,clematis,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01598.jpg,clematis,clematis,99.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01599.jpg,clematis,clematis,78.24,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01603.jpg,clematis,clematis,82.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01609.jpg,clematis,clematis,99.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01610.jpg,clematis,clematis,99.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01614.jpg,clematis,clematis,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01618.jpg,clematis,clematis,91.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01650.jpg,clematis,clematis,96.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01653.jpg,clematis,clematis,95.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01661.jpg,clematis,clematis,99.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01662.jpg,clematis,clematis,96.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01666.jpg,clematis,clematis,98.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01672.jpg,clematis,clematis,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01679.jpg,clematis,clematis,76.53,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01685.jpg,clematis,clematis,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/82/image_01686.jpg,clematis,clematis,99.81,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01735.jpg,hibiscus,cyclamen,64.77,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01737.jpg,hibiscus,hibiscus,98.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01742.jpg,hibiscus,hibiscus,53.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01748.jpg,hibiscus,primula,42.13,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01755.jpg,hibiscus,hibiscus,95.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01759.jpg,hibiscus,hibiscus,50.64,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01770.jpg,hibiscus,hibiscus,96.09,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01774.jpg,hibiscus,hibiscus,77.43,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01777.jpg,hibiscus,hibiscus,96.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01789.jpg,hibiscus,hibiscus,73.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01805.jpg,hibiscus,hibiscus,97.4,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01809.jpg,hibiscus,hibiscus,42.67,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01810.jpg,hibiscus,hibiscus,26.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/83/image_01818.jpg,hibiscus,hibiscus,93.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02557.jpg,columbine,columbine,66.34,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02563.jpg,columbine,columbine,89.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02568.jpg,columbine,columbine,87.36,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02572.jpg,columbine,columbine,36.23,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02576.jpg,columbine,columbine,48.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02581.jpg,columbine,columbine,99.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02583.jpg,columbine,columbine,28.19,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02586.jpg,columbine,columbine,98.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02613.jpg,columbine,columbine,67.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/84/image_02615.jpg,columbine,windflower,41.24,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04786.jpg,desert-rose,morning glory,32.35,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04797.jpg,desert-rose,desert-rose,32.41,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04801.jpg,desert-rose,sword lily,52.6,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04805.jpg,desert-rose,desert-rose,49.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04806.jpg,desert-rose,desert-rose,99.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04808.jpg,desert-rose,desert-rose,52.36,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04810.jpg,desert-rose,desert-rose,85.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04814.jpg,desert-rose,desert-rose,80.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04819.jpg,desert-rose,desert-rose,90.31,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/85/image_04825.jpg,desert-rose,sword lily,65.88,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/86/image_02865.jpg,tree mallow,tree mallow,99.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/86/image_02873.jpg,tree mallow,tree mallow,98.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/86/image_02893.jpg,tree mallow,tree mallow,99.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/86/image_02910.jpg,tree mallow,tree mallow,99.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/86/image_02912.jpg,tree mallow,tree mallow,96.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05462.jpg,magnolia,magnolia,96.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05466.jpg,magnolia,magnolia,98.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05469.jpg,magnolia,magnolia,99.79,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05485.jpg,magnolia,magnolia,99.56,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05488.jpg,magnolia,magnolia,78.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/87/image_05493.jpg,magnolia,magnolia,99.68,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00457.jpg,cyclamen,cyclamen,97.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00467.jpg,cyclamen,cyclamen,99.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00474.jpg,cyclamen,cyclamen,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00477.jpg,cyclamen,cyclamen,98.59,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00482.jpg,cyclamen,cyclamen,95.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00520.jpg,cyclamen,cyclamen,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00526.jpg,cyclamen,cyclamen,77.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00540.jpg,cyclamen,cyclamen,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00551.jpg,cyclamen,cyclamen,98.03,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00563.jpg,cyclamen,cyclamen,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00582.jpg,cyclamen,cyclamen,93.38,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00584.jpg,cyclamen,cyclamen,99.06,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/88/image_00594.jpg,cyclamen,cyclamen,98.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00610.jpg,watercress,watercress,66.77,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00617.jpg,watercress,watercress,80.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00634.jpg,watercress,ball moss,39.88,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00645.jpg,watercress,watercress,85.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00654.jpg,watercress,watercress,99.88,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00676.jpg,watercress,watercress,87.45,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00699.jpg,watercress,watercress,62.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00708.jpg,watercress,watercress,99.28,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00724.jpg,watercress,watercress,97.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00726.jpg,watercress,watercress,88.26,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00740.jpg,watercress,watercress,91.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00745.jpg,watercress,watercress,99.3,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00755.jpg,watercress,watercress,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00756.jpg,watercress,watercress,99.56,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/89/image_00779.jpg,watercress,watercress,90.37,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/9/image_06410.jpg,monkshood,grape hyacinth,58.37,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/9/image_06413.jpg,monkshood,monkshood,95.44,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04405.jpg,canna lily,sword lily,81.38,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04407.jpg,canna lily,canna lily,87.41,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04417.jpg,canna lily,sword lily,47.78,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04420.jpg,canna lily,canna lily,94.22,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04426.jpg,canna lily,canna lily,93.51,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04428.jpg,canna lily,canna lily,76.79,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04430.jpg,canna lily,canna lily,97.32,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04431.jpg,canna lily,canna lily,51.49,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04432.jpg,canna lily,canna lily,90.29,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04458.jpg,canna lily,canna lily,85.78,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04459.jpg,canna lily,canna lily,87.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04468.jpg,canna lily,canna lily,86.84,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04469.jpg,canna lily,bromelia,29.87,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/90/image_04473.jpg,canna lily,canna lily,99.26,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04851.jpg,hippeastrum,hippeastrum,99.2,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04856.jpg,hippeastrum,hippeastrum,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04860.jpg,hippeastrum,hippeastrum,98.55,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04870.jpg,hippeastrum,hippeastrum,99.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04875.jpg,hippeastrum,hippeastrum,86.5,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04883.jpg,hippeastrum,hippeastrum,95.15,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_04890.jpg,hippeastrum,hippeastrum,99.72,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/91/image_08061.jpg,hippeastrum,hippeastrum,98.16,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03032.jpg,bee balm,bee balm,86.61,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03039.jpg,bee balm,great masterwort,46.82,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03041.jpg,bee balm,bee balm,94.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03044.jpg,bee balm,bee balm,31.1,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03048.jpg,bee balm,bee balm,51.9,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03049.jpg,bee balm,bee balm,69.83,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03052.jpg,bee balm,bee balm,47.15,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03054.jpg,bee balm,bee balm,83.18,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03056.jpg,bee balm,bee balm,96.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03058.jpg,bee balm,bee balm,95.47,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/92/image_03075.jpg,bee balm,pincushion flower,53.28,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06014.jpg,ball moss,ball moss,95.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06017.jpg,ball moss,ball moss,99.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06021.jpg,ball moss,ball moss,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06031.jpg,ball moss,ball moss,96.8,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06033.jpg,ball moss,ball moss,99.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/93/image_06037.jpg,ball moss,ball moss,97.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07308.jpg,foxglove,foxglove,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07327.jpg,foxglove,foxglove,99.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07333.jpg,foxglove,foxglove,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07346.jpg,foxglove,foxglove,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07352.jpg,foxglove,foxglove,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07357.jpg,foxglove,foxglove,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07358.jpg,foxglove,siam tulip,90.3,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07361.jpg,foxglove,foxglove,99.95,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07370.jpg,foxglove,foxglove,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07388.jpg,foxglove,foxglove,73.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07395.jpg,foxglove,foxglove,99.98,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07399.jpg,foxglove,foxglove,84.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07400.jpg,foxglove,foxglove,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07415.jpg,foxglove,foxglove,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07434.jpg,foxglove,foxglove,99.97,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/94/image_07436.jpg,foxglove,foxglove,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07468.jpg,bougainvillea,bougainvillea,99.96,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07470.jpg,bougainvillea,bougainvillea,84.08,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07472.jpg,bougainvillea,bougainvillea,52.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07487.jpg,bougainvillea,bougainvillea,93.11,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07505.jpg,bougainvillea,bougainvillea,48.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07508.jpg,bougainvillea,bougainvillea,99.4,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07514.jpg,bougainvillea,bougainvillea,99.07,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07519.jpg,bougainvillea,bougainvillea,99.57,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07536.jpg,bougainvillea,bougainvillea,90.92,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07550.jpg,bougainvillea,bougainvillea,87.05,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07551.jpg,bougainvillea,camellia,47.31,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07561.jpg,bougainvillea,bougainvillea,98.94,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07573.jpg,bougainvillea,bougainvillea,99.99,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/95/image_07584.jpg,bougainvillea,bougainvillea,99.87,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07596.jpg,camellia,camellia,85.58,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07597.jpg,camellia,camellia,98.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07606.jpg,camellia,camellia,99.42,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07622.jpg,camellia,camellia,95.04,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07646.jpg,camellia,camellia,98.79,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07668.jpg,camellia,camellia,61.69,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07672.jpg,camellia,camellia,93.64,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07676.jpg,camellia,camellia,37.71,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/96/image_07683.jpg,camellia,mallow,87.41,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/97/image_07696.jpg,mallow,hippeastrum,20.97,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/97/image_07708.jpg,mallow,mallow,85.85,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/97/image_07709.jpg,mallow,bougainvillea,49.58,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/97/image_07719.jpg,mallow,mallow,86.66,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/97/image_07737.jpg,mallow,mallow,69.33,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/98/image_07753.jpg,mexican petunia,mexican petunia,99.86,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/98/image_07758.jpg,mexican petunia,morning glory,66.81,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/98/image_07777.jpg,mexican petunia,mexican petunia,99.89,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/98/image_07787.jpg,mexican petunia,mexican petunia,99.25,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07833.jpg,bromelia,bromelia,89.74,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07838.jpg,bromelia,water lily,61.79,False
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07840.jpg,bromelia,bromelia,98.82,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07854.jpg,bromelia,bromelia,100.0,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07857.jpg,bromelia,bromelia,97.47,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07871.jpg,bromelia,bromelia,95.01,True
+c:/Users/Jenny/anaconda3/envs/udacity/notebooks/Project_2/Flower_Classification_Project/flowers/test/99/image_07874.jpg,bromelia,bromelia,100.0,True

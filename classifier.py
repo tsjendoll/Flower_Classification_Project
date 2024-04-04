@@ -12,6 +12,8 @@ import torch
 from torch import nn, optim
 from torchvision import models
 
+import numpy as np
+
 import tkinter as tk
 from tkinter import filedialog
 
@@ -99,7 +101,7 @@ def build_network(arch: str, hidden_units: list, n_classes: int, dropout_rate: f
 
     return model
 
-def train_network(model, trainloader, validloader, epochs: int, lr: float, choice: str, dropout, arch, count, hidden_layers):
+def train_network(model, trainloader, validloader, epochs: int, lr: float, device_choice: str, dropout: float, count: int, hidden_layers, train_data):
     # TODO docstring for train_network
     """_summary_
 
@@ -109,7 +111,10 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, choic
         validloader (_type_): _description_
         epochs (int): _description_
         lr (float): _description_
-        choice (str): _description_
+        device_choice (str): _description_
+        dropout (float): _description_
+        count (int): _description_
+        hidden_layers (_type_): _description_
 
     Raises:
         Exception: _description_
@@ -117,22 +122,16 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, choic
     Returns:
         _type_: _description_
     """
-    # Do validation on the test set
-    epochs = epochs
-
-    criterion = nn.NLLLoss()
-    if arch == 'resnet':
-        optimizer = optim.Adam(model.fc.parameters(), lr=lr)    
-    else:
-        optimizer = optim.Adam(model.classifier.parameters(), lr=lr)
 
     cpu = torch.device('cpu')
     gpu = torch.device('cuda')
 
-    if choice == 'cpu':
+    # Set device according to user choice.  If GPU is selected 
+    # but cuda is not available, default to CPU
+    if device_choice == 'cpu':
         device = cpu
         print("Device set to 'cpu'")
-    elif choice == 'gpu':
+    elif device_choice == 'gpu':
         # Set device to CUDA if available,
         if torch.cuda.is_available():
             device = gpu
@@ -143,63 +142,80 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, choic
                     Setting device to 'cpu' instead.")
     else:
         raise Exception("device must be 'cpu' or 'gpu'")
+    
     model.to(device);
 
-    train_losses, test_losses = [], []
+    steps = 0
+    running_loss = 0
+    print_every = 20
+
+    
+    criterion = nn.NLLLoss()
+    
+    arch = type(model).__name__.lower()
+    if arch == 'resnet':
+        optimizer = optim.Adam(model.fc.parameters(), lr=lr)    
+    else:
+        optimizer = optim.Adam(model.classifier.parameters(), lr=lr)
+
+    train_losses, test_losses, accuracy_list = [], [], []
 
     prettify('train')
 
+    # Do validation on the test set
     for e in range(epochs):
-        tot_train_loss = 0
         for images, labels in trainloader:
+            steps += 1
+            optimizer.zero_grad()
             
             # Move image and label tensors to the default device
             images, labels = images.to(device), labels.to(device)
+
+            log_ps = model(images)
+            loss = criterion(log_ps, labels)
+            running_loss += loss.item()
             
-            logps = model(images)
-            loss = criterion(logps, labels)
-            
-            optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            
-            tot_train_loss += loss.item()
 
-           
-        else:
-            tot_test_loss = 0
-            accuracy = 0
-            model.eval()
-            # Turn off gradients for validation
-            with torch.no_grad():
-                for images, labels in validloader:
-                    images, labels = images.to(device), labels.to(device)
-                    logps = model(images)
-                    tot_test_loss += criterion(logps, labels).item()
+            if steps % print_every == 0:
+                test_loss = 0
+                accuracy = 0
+                model.eval()
+                with torch.no_grad():
+                    for images, labels in validloader:
+                        images, labels = images.to(device), labels.to(device)
+                        logps = model.forward(images)
+                        batch_loss = criterion(logps, labels)
 
-                    ps = torch.exp(logps)
-                    top_ps, top_class = ps.topk(1, dim=1)
-                    equality = top_class == labels.view(*top_class.shape)
-                    accuracy += torch.mean(equality.type(torch.FloatTensor))
-            
-            # Get mean loss to enable comparison between train and test sets
-            train_loss = tot_train_loss / len(trainloader.dataset)
-            test_loss = tot_test_loss / len(validloader.dataset)
+                        test_loss += batch_loss.item()
 
-            train_losses.append(train_loss)
-            test_losses.append(test_loss)
+                        ps = torch.exp(logps)
+                        _, top_class = ps.topk(1, dim=1)
+                        equals = top_class == labels.view(*top_class.shape)
+                        accuracy += torch.mean(equals.type(torch.FloatTensor)).item()
 
-            print(f'Epoch {e+1}/{epochs}... '
-                f'Train loss: {train_loss:.3f}.. '
-                f'Test loss: {test_loss:.3f}.. '
-                f'Test accuracy: {accuracy:.3f}')
-            
-            model.train() #Put back in training mode for next pass
 
-    
+                train_loss  = running_loss/print_every
+                test_loss = test_loss/len(validloader)
+                accuracy = accuracy/len(validloader)
+
+                train_losses.append(train_loss)
+                test_losses.append(test_loss)
+                accuracy_list.append(accuracy)
+
+                print(f"Epoch {e+1}/{epochs}.. "
+                    f"Train loss: {train_loss:.3f}.. "
+                    f"Test loss: {test_loss:.3f}.. "
+                    f"Test accuracy: {accuracy * 100:.2f}%")
+                
+                running_loss = 0
+                model.train() #Put back in training mode for next pass
+
+    model.class_idx_mapping = train_data.class_to_idx
 
     checkpoint = {
-        'arch': archs[arch]['model'],
+        'model': archs[arch]['model'],
         'input_size': archs[arch]['in_features'],  
         'output_size': count,
         'hidden_layers': hidden_layers,
@@ -207,7 +223,8 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, choic
         'optimizer_state_dict': optimizer.state_dict(),
         'epochs': epochs,
         'dropout': dropout,
-        'lr': lr
+        'lr': lr,
+        'class_idx_mapping': model.class_idx_mapping
     }
 
     return checkpoint, train_losses, test_losses
@@ -259,9 +276,14 @@ def load_model(filepath):
         checkpoint = torch.load(filepath, map_location=torch.device('cpu'))
     
     # Reconstructing the model
-    model = checkpoint['arch']
+    model = checkpoint['model']
 
-    optimizer = optim.Adam(model.fc.parameters(), lr=checkpoint['lr'])
+    arch = type(model).__name__.lower()
+    if arch == 'resnet':
+        optimizer = optim.Adam(model.fc.parameters(), lr=checkpoint['lr'])    
+    else:
+        optimizer = optim.Adam(model.classifier.parameters(), lr=checkpoint['lr'])
+
     for param in model.parameters():
         param.requires_grad = False
     
@@ -290,28 +312,34 @@ def load_model(filepath):
     # Load the model's state_dict
     model.load_state_dict(checkpoint['state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+    class_idx_mapping = checkpoint['class_idx_mapping']
+    idx_class_mapping = {v: k for k, v in class_idx_mapping.items()}
 
-    return model
+    return model, idx_class_mapping
 
-def predict(image_path, model, labels, topk=5):
-    ''' Predict the class (or classes) of an image using a trained deep learning model.
-    '''
-    gpu = torch.device('cuda')
+def predict(image_path, model, labels, idx_class_mapping, topk=5):
 
-    if torch.cuda.is_available():
-        model.to(gpu)
+    # # No need for GPU
+    device = torch.device('cpu')
+    model.to(device)
+    
+    model.eval()
+     
+    img = process_image(image_path)
+    img = np.expand_dims(img, axis=0)
+    img_tensor = torch.from_numpy(img).type(torch.FloatTensor).to(device)
+    
     with torch.no_grad():
-        model.eval()
+        logps = model.forward(img_tensor)
+    
+    probabilities = torch.exp(logps)
+    probs, indices = probabilities.topk(topk)
+    
+    probs = probs.numpy().squeeze()
+    indices = indices.numpy().squeeze()
+    indices = np.atleast_1d(indices)
+    probs = np.atleast_1d(probs)
+    classes = [idx_class_mapping[index] for index in indices]
+    classes = [labels[x] for x in classes]
 
-        img_tensor = process_image(image_path)
-        img_tensor = img_tensor.unsqueeze(0)
-
-        if torch.cuda.is_available():
-            img_tensor = img_tensor.cuda()
-
-        ps = torch.exp(model(img_tensor))
-        probs, classes = ps.topk(topk, dim=1)
-
-        class_names = [[labels[str(idx.item() + 1)] for idx in tensor] for tensor in classes]
-
-        return probs[0], class_names[0]
+    return probs, classes

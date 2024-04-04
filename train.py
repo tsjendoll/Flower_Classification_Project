@@ -9,10 +9,10 @@
 from utils import (
     get_input_args, 
     check_subfolders, 
-    label_mapping, 
     setup_data, 
     prettify, 
-    plot_losses)
+    plot_losses,
+    pause)
 
 from classifier import (
     build_network, 
@@ -52,13 +52,23 @@ def main():
                         You can have as many label folders as you want as long \n\
                         as they are consistent.")
     
+    pause()
     # TODO ADD option to view configurationss
 
-    trainloader, testloader, validloader = setup_data(in_args.dir)
+    trainloader, validloader, train_data = setup_data(in_args.dir)
 
     model = build_network(in_args.arch, in_args.hidden_layers, count, in_args.dropout)
     
-    checkpoint, train_losses, test_losses = train_network(model, trainloader, validloader, in_args.epochs, in_args.lr, in_args.device, in_args.dropout, in_args.arch, count, in_args.hidden_layers)
+    checkpoint, train_losses, test_losses = train_network(model, # model built with the build_network function
+                                                          trainloader, # 
+                                                          validloader, #
+                                                          in_args.epochs, # 
+                                                          in_args.lr, #
+                                                          in_args.device, #
+                                                          in_args.dropout, #
+                                                          count, # number of labels
+                                                          in_args.hidden_layers, # hidden layers
+                                                          train_data) # Needed for class_idx_mapping
 
     save_checkpoint(checkpoint)
 

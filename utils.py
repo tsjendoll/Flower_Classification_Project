@@ -100,23 +100,26 @@ def get_input_args(command: str):
     args = parser.parse_args()
     return args 
 
-def check_subfolders(path):
-    # TODO docstring check_subfolders
-    """_summary_
-
+def check_subfolders(path: str):
+    """
+    Check if the main folder contains 'train' and 'valid' subfolders.
+    
     Args:
-        path (_type_): _description_
+        path (str): The path to the main folder.
 
     Returns:
-        _type_: _description_
+        bool: True if 'train' and 'valid' subfolders are present, False otherwise.
+        int: The count of subfolders in 'train' and 'valid' if they are present, 0 otherwise.
     """
+    
     # List all subfolders in the main folder
     subfolders = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
-    
-    expected_subfolders = ['test', 'train', 'valid']
-    
-    if len(subfolders) != 3 or sorted(subfolders) != expected_subfolders:
-        print("Error: The main folder should contain exactly three subfolders named 'train', 'valid', and 'test'.")
+
+    expected_subfolders = ['train', 'valid']
+
+    # Check if 'train' and 'valid' subfolders are present
+    if not set(expected_subfolders).issubset(set(subfolders)):
+        print("Error: The main folder should contain 'train' and 'valid' subfolders.")
         return False, 0
 
     # Iterate over each subfolder
@@ -149,10 +152,10 @@ def check_subfolders(path):
             print(f"Number of class label folders: {final_subfolder_counts[subfolder]}")
             return True, final_subfolder_counts[subfolder]
         else:
-            print("Error: class label folders do not have the same count in all three main subfolders.")
+            print("Error: class label folders do not have the same count in all main subfolders.")
             return False, 0
     else:
-        print("Error: class label folders do not have the same name in all three main subfolders.")
+        print("Error: class label folders do not have the same name in all main subfolders.")
         return False, 0
     
 def setup_data(path: str):
@@ -164,13 +167,11 @@ def setup_data(path: str):
 
     Returns:
         trainloader (torch.utils.data.DataLoader): DataLoader for the train dataset.
-        testloader (torch.utils.data.DataLoader): DataLoader for the test dataset.
         validloader (torch.utils.data.DataLoader): DataLoader for the validation dataset.
     """
     data_dir = path
     train_dir = data_dir + '/train'
     valid_dir = data_dir + '/valid'
-    test_dir = data_dir + '/test'
 
     # Define your transforms for the training, validation, and testing sets
     train_transforms = transforms.Compose([transforms.RandomRotation(30),
@@ -188,16 +189,14 @@ def setup_data(path: str):
 
     # Load the datasets with ImageFolder
     train_data = datasets.ImageFolder(train_dir, transform=train_transforms)
-    test_data = datasets.ImageFolder(test_dir, transform=test_transforms)
     valid_data = datasets.ImageFolder(valid_dir, transform=test_transforms)
 
 
     # Using the image datasets and the trainforms, define the dataloaders
     trainloader = torch.utils.data.DataLoader(train_data, batch_size=64, shuffle=True)
-    testloader = torch.utils.data.DataLoader(test_data, batch_size=64)
     validloader = torch.utils.data.DataLoader(valid_data, batch_size=64)    
     
-    return trainloader, testloader, validloader
+    return trainloader, validloader, train_data
 
 def label_mapping(path: str):
     """
@@ -390,7 +389,6 @@ def print_predictions(tensor, flower_names):
         tensor (_type_): _description_
         flower_names (_type_): _description_
     """
-    tensor = tensor.cpu()
     tensor = tensor.numpy() if torch.is_tensor(tensor) else tensor
     for i in range(len(tensor)):
         percentage = tensor[i] * 100  # Convert the value to percentage

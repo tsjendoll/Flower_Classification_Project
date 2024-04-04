@@ -7,7 +7,8 @@
 # PURPOSE:
 
 # Imports functions for this program
-import os
+import tkinter as tk
+from tkinter import filedialog, messagebox
 from utils import get_input_args, check_input_type, label_mapping, print_predictions, find_image_files
 from classifier import load_model, predict
 import csv
@@ -17,7 +18,7 @@ def main():
     # Get command line arguments using in_arg  
     in_args = get_input_args('predict')
 
-    model = load_model(in_args.model_path)
+    model, idx_class_mapping = load_model(in_args.model_path)
 
     input_type = check_input_type(in_args.input_data)
 
@@ -31,10 +32,8 @@ def main():
 
         image_files = find_image_files(in_args.input_data)
 
-        print(image_files)
-
         for image_file in image_files:
-                probs, classes = predict(image_file, model, labels, 1)
+                probs, classes = predict(image_file, model, labels, idx_class_mapping, 1)
                 expected = labels[image_file.split('/')[-2]]
                 all_predictions.append({
                     'image_file': image_file,
@@ -46,23 +45,32 @@ def main():
 
         df = pd.DataFrame(all_predictions)
 
-        print(df.head())
+        # Create a Tkinter root window
+        root = tk.Tk()
+        root.withdraw()  # Hide the main window
+        root.attributes('-topmost', True)  # Ensure the dialog box appears in front of other apps
+
+        # Open the "Save As" dialog box
+        file_path = filedialog.asksaveasfilename(defaultextension=".csv",
+                                                initialfile='predictions.csv',
+                                                filetypes=[("CSV files", "*.csv"), ("All Files", "*.*")])
         
-        with open('predictions.csv', 'w') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames = field_names) 
-            writer.writeheader() 
-            writer.writerows(all_predictions) 
-
-
-
+        if file_path:
+            with open('predictions.csv', 'w') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames = field_names) 
+                writer.writeheader() 
+                writer.writerows(all_predictions) 
+            print(f"Predictions saved to {file_path}")
+        else:
+            print("Save operation was cancelled.")
+            
     elif input_type == 'single':
-        probs, classes = predict(in_args.input_data, model, labels, in_args.topk)
+        probs, classes = predict(in_args.input_data, model, labels, idx_class_mapping, in_args.topk)
         print_predictions(probs, classes)
     else:
         raise Exception("Input type must be a single images or a folder containing images")
 
     # TODO Plot barchart and image if it is a single image
-    # TODO Save predictions csv? if it is a set of images
 
 # Call to main function to run the program
 if __name__ == "__main__":
