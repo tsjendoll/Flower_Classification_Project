@@ -45,6 +45,7 @@ def get_input_args(command: str):
             2. Model to be loaded as --model_path with default value 'checkpoint.pth'
             3. JSON or Text file with the label mapping as --labels with default value 'cat_to_name.json'
             4. top K classes to display as --topk with default value 5
+            5. Device as --device with default value 'gpu'            
     Parameters:
     - command (str): Selects mode 'train' or 'predict'.
 
@@ -96,7 +97,9 @@ def get_input_args(command: str):
                                     be convereted to a dictionatry of labels.')
         parser.add_argument('--topk', type = int, default=5,
                             help = 'choose how many of the top predictions to display')
-        
+        parser.add_argument('--device', type = str, default='gpu', choices= ['cpu','gpu'],
+                            help = 'cpu\' or \'gpu\'.  If \'gpu\' is selected but no cuda \
+                                    device is available, will default to \'cpu\'')   
     args = parser.parse_args()
     return args 
 
@@ -413,7 +416,7 @@ def find_image_files(directory):
     Returns:
     - list: List of paths to the image files found in the directory.
     """
-    
+
     image_files = []
     for root, _, files in os.walk(directory):
         for filename in files:

@@ -351,7 +351,7 @@ def load_model(filepath):
 
     return model, idx_class_mapping
 
-def predict(image_path, model, labels, idx_class_mapping, topk=5):
+def predict(image_path, model, labels, idx_class_mapping, device_choice, topk=5):
     """
     Predict the top classes and their probabilities for a given image.
 
@@ -360,15 +360,20 @@ def predict(image_path, model, labels, idx_class_mapping, topk=5):
     - model (nn.Module): The trained neural network model.
     - labels (list): List of label names.
     - idx_class_mapping (dict): Dictionary mapping class indices to class names.
+    - device_choice (str): The device to be used for training ('cpu' or 'gpu').
     - topk (int, optional): The number of top classes to return. Default is 5.
 
     Returns:
-    - probs: the probabilites for the 'topk' classes
-    - classses: the label name for the 'topk' classes
+    - probs: the probabilities for the 'topk' classes
+    - classes: the label name for the 'topk' classes
     """
 
-    # Set device to CPU
-    device = torch.device('cpu')
+    if device_choice == 'gpu':
+        # Set device to GPU if available
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    else:
+        device = torch.device('cpu')
+    
     model.to(device)
     
     # Set the model to evaluation mode
@@ -388,8 +393,8 @@ def predict(image_path, model, labels, idx_class_mapping, topk=5):
     probs, indices = probabilities.topk(topk)
     
     # Convert tensors to numpy arrays
-    probs = probs.numpy().squeeze()
-    indices = indices.numpy().squeeze()
+    probs = probs.cpu().numpy().squeeze()
+    indices = indices.cpu().numpy().squeeze()
     indices = np.atleast_1d(indices)
     probs = np.atleast_1d(probs)
     
