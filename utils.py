@@ -4,7 +4,7 @@
 #                                                                            
 # PROGRAMMER: Jen Berenguel                                                   
 # DATE CREATED: 03/23/2024                                  
-# REVISED DATE:                            
+# REVISED DATE: 04/03/2024                    
 # PURPOSE:  Defines utility functions necessary for the command line applications  
 #           to run.
 
@@ -44,7 +44,7 @@ def get_input_args(command: str):
             1. Input data as --input_data.  Required
             2. Model to be loaded as --model_path with default value 'checkpoint.pth'
             3. JSON or Text file with the label mapping as --labels with default value 'cat_to_name.json'
-            5. top K classes to display as --topk with default value 5
+            4. top K classes to display as --topk with default value 5
     Parameters:
     - command (str): Selects mode 'train' or 'predict'.
 
@@ -53,11 +53,11 @@ def get_input_args(command: str):
     """
     parser = argparse.ArgumentParser()
 
+    # Special type for argument hidden_layers
     def list_of_ints(arg):
         try:
             numbers = re.findall(r'\d+', arg) 
             return [int(num) for num in numbers]
-        
         except ValueError:
             raise argparse.ArgumentTypeError("Invalid list of integers. Please enter comma-separated integers.")
                                          
@@ -145,7 +145,7 @@ def check_subfolders(path: str):
 
     # Check if all class label folders names are the same
     if len(set(final_subfolder_names.values())) == 1:
-        print(f"All class label folders have the same name: {final_subfolder_names[subfolder]}")
+        print(f"All class label folders have the same name.")
         
         # Check if all class label folders counts are the same
         if len(set(final_subfolder_counts.values())) == 1:
@@ -239,28 +239,32 @@ def label_mapping(path: str):
         return None
     
 def wait(seconds):
-    # TODO docstring for wait
-    """_summary_
+    """
+    Print dots for the specified number of seconds to create a waiting effect.
 
     Args:
-        seconds (_type_): _description_
+    - seconds (int): The number of seconds to wait.
     """
+
     print("\n")
-    for i in range(seconds):
+    for _ in range(seconds):
         print('.', end='')
         time.sleep(1)
     print("\n")
 
 def prettify(text):
-    # TODO docstring for prettify
-    """_summary_
+    """
+    Print formatted text based on the provided option.
 
     Args:
-        text (_type_): _description_
+    - text (str): The text option to determine the format to be printed.
     """
+
+    # Wait for 5 seconds if the text is not 'title'
     if text != 'title':
         wait(5)
 
+    # Dictionary containing the formatted text for each option
     switcher = {
         'train': '\n\
     ▀█▀ █▀█ ▄▀█ █ █▄░█ █ █▄░█ █▀▀\n\
@@ -286,23 +290,19 @@ def prettify(text):
         'checkpoint': None
     }
     
+    # Print the formatted text based on the provided text option
     print(switcher.get(text, "Invalid option"))
-     
-def pause():
-    # TODO DO I even need this - pause()
-    input("Press Enter to continue...")
-
+    
 def plot_losses(train_losses, test_losses):
-    # TODO docstring for plot_losses
-    """_summary_
+    """
+    Plot the training and validation losses and save the plot to a file.
 
     Args:
-        train_losses (_type_): _description_
-        test_losses (_type_): _description_
+    - train_losses (list): List of training losses.
+    - test_losses (list): List of validation losses.
     """
 
-
-    # Your code to plot the graph
+    # Plot the training and validation losses
     plt.plot(train_losses, label='Training loss')
     plt.plot(test_losses, label='Validation loss')
     plt.legend(frameon=False)
@@ -360,42 +360,60 @@ def check_input_type(input_path):
                     return 'folder'
     return 'unknown'
 
-# TODO: Process a PIL image for use in a PyTorch model
 def process_image(image_path):
-    # TODO docstring process_image
-    """_summary_
+    """
+    Process and transform the input image for model prediction.
 
     Args:
-        image_path (_type_): _description_
+    - image_path (str): The path to the image file.
 
     Returns:
-        _type_: _description_
+    - image(tensor): The processed image tensor.
     """
+
+    # Define the image transformation pipeline
     transform = transforms.Compose([
         transforms.Resize(256),
         transforms.CenterCrop(224),
         transforms.ToTensor(),
         transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
     ])
+
+    # Open the image and apply the transformations
     image = Image.open(image_path)
     image = transform(image)
+
     return image
 
 def print_predictions(tensor, flower_names):
-    # TODO docstring print_predictions
-    """_summary_
+    """
+    Print the predicted probabilities for each flower category.
 
     Args:
-        tensor (_type_): _description_
-        flower_names (_type_): _description_
+    - tensor (Tensor or numpy array): The tensor containing the predicted probabilities.
+    - flower_names (list): List of flower names corresponding to the tensor probabilities.
     """
+
+    # Convert tensor to numpy array if it's a tensor
     tensor = tensor.numpy() if torch.is_tensor(tensor) else tensor
+
+    # Iterate through the tensor and print the predictions
     for i in range(len(tensor)):
         percentage = tensor[i] * 100  # Convert the value to percentage
         rounded_percentage = round(percentage, 2)  # Round to 2 decimal places
         print(f"{flower_names[i]:<15}: {rounded_percentage:>6.2f}%")
 
 def find_image_files(directory):
+    """
+    Find all image files in a specified directory.
+
+    Args:
+    - directory (str): The directory path to search for image files.
+
+    Returns:
+    - list: List of paths to the image files found in the directory.
+    """
+    
     image_files = []
     for root, _, files in os.walk(directory):
         for filename in files:

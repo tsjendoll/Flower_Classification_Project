@@ -3,23 +3,24 @@
 #                                                                            
 # PROGRAMMER: Jen Berenguel                                                   
 # DATE CREATED: 03/23/2024                                  
-# REVISED DATE:                                 
+# REVISED DATE: 04/03/2024                       
 # PURPOSE:
 
+# Standard Library Imports
 from datetime import datetime
 
+# Third-Party Library Imports
+import numpy as np
 import torch
 from torch import nn, optim
 from torchvision import models
-
-import numpy as np
-
 import tkinter as tk
 from tkinter import filedialog
 
+# Local Imports
 from utils import prettify, process_image
 
-# pretrained networks
+# Pretrained networks
 resnet50 = models.resnet50(weights='ResNet50_Weights.DEFAULT')
 alexnet = models.alexnet(weights='AlexNet_Weights.DEFAULT')
 vgg16 = models.vgg16(weights='VGG16_Weights.DEFAULT')
@@ -79,8 +80,8 @@ def build_network(arch: str, hidden_units: list, n_classes: int, dropout_rate: f
     classifier.add_module('relu1', nn.ReLU())
     classifier.add_module('dropout1', nn.Dropout(p=dropout_rate))
 
+    # Add hidden layers to model
     for i in range(len(hidden_units)):
-        print(i)
         if i == len(hidden_units)-1:
             classifier.add_module('layer'+ str(i+2), nn.Linear(hidden_units[-1], n_classes))
             break
@@ -91,6 +92,7 @@ def build_network(arch: str, hidden_units: list, n_classes: int, dropout_rate: f
 
     classifier.add_module('softmax', nn.LogSoftmax(dim=1))
 
+    # Define the classifier based on the model architecture
     if arch == 'resnet':
         model.fc = classifier
     else:
@@ -102,31 +104,31 @@ def build_network(arch: str, hidden_units: list, n_classes: int, dropout_rate: f
     return model
 
 def train_network(model, trainloader, validloader, epochs: int, lr: float, device_choice: str, dropout: float, count: int, hidden_layers, train_data):
-    # TODO docstring for train_network
-    """_summary_
+    """
+    Train a neural network model.
 
     Args:
-        model (_type_): _description_
-        trainloader (_type_): _description_
-        validloader (_type_): _description_
-        epochs (int): _description_
-        lr (float): _description_
-        device_choice (str): _description_
-        dropout (float): _description_
-        count (int): _description_
-        hidden_layers (_type_): _description_
-
-    Raises:
-        Exception: _description_
+    - model (nn.Module): The neural network model to be trained.
+    - trainloader (DataLoader): The data loader for the training dataset.
+    - validloader (DataLoader): The data loader for the validation dataset.
+    - epochs (int): The number of training epochs.
+    - lr (float): The learning rate for the optimizer.
+    - device_choice (str): The device to be used for training ('cpu' or 'gpu').
+    - dropout (float): The dropout rate.
+    - count (int): The number of output classes.
+    - hidden_layers (list): A list containing the sizes of the hidden layers.
+    - train_data: The training data used for training.
 
     Returns:
-        _type_: _description_
+    - checkpoint: The checkpoint dictionary
+    - training losses: a list containg the train loss for each step
+    - test losses:: a list containing the test loss for each step
     """
 
     cpu = torch.device('cpu')
     gpu = torch.device('cuda')
 
-    # Set device according to user choice.  If GPU is selected 
+    # Set device according to user choice. If GPU is selected 
     # but cuda is not available, default to CPU
     if device_choice == 'cpu':
         device = cpu
@@ -149,40 +151,48 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, devic
     running_loss = 0
     print_every = 20
 
-    
+    # Define the criterion for the loss function
     criterion = nn.NLLLoss()
     
+    # Determine the architecture of the model and set the optimizer accordingly
     arch = type(model).__name__.lower()
     if arch == 'resnet':
         optimizer = optim.Adam(model.fc.parameters(), lr=lr)    
     else:
         optimizer = optim.Adam(model.classifier.parameters(), lr=lr)
 
-    train_losses, test_losses, accuracy_list = [], [], []
+    train_losses, test_losses = [], []
 
+    # Print a pretty message indicating the start of training
     prettify('train')
 
-    # Do validation on the test set
+    # Loop through each epoch
     for e in range(epochs):
+        # Loop through each batch in the training data
         for images, labels in trainloader:
             steps += 1
             optimizer.zero_grad()
             
-            # Move image and label tensors to the default device
+            # Move image and label tensors to the selected device
             images, labels = images.to(device), labels.to(device)
 
+            # Forward pass to get the log probabilities
             log_ps = model(images)
+            # Calculate the loss
             loss = criterion(log_ps, labels)
             running_loss += loss.item()
             
+            # Backward pass to update the weights
             loss.backward()
             optimizer.step()
 
+            # Print training loss and validation metrics every 'print_every' steps
             if steps % print_every == 0:
                 test_loss = 0
                 accuracy = 0
                 model.eval()
                 with torch.no_grad():
+                    # Loop through each batch in the validation data
                     for images, labels in validloader:
                         images, labels = images.to(device), labels.to(device)
                         logps = model.forward(images)
@@ -195,23 +205,25 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, devic
                         equals = top_class == labels.view(*top_class.shape)
                         accuracy += torch.mean(equals.type(torch.FloatTensor)).item()
 
-
+                # Calculate average training and validation losses and accuracy
                 train_loss  = running_loss/print_every
                 test_loss = test_loss/len(validloader)
                 accuracy = accuracy/len(validloader)
 
+                # Append the losses to the lists for plotting
                 train_losses.append(train_loss)
                 test_losses.append(test_loss)
-                accuracy_list.append(accuracy)
 
+                # Print the epoch, training loss, validation loss, and accuracy
                 print(f"Epoch {e+1}/{epochs}.. "
                     f"Train loss: {train_loss:.3f}.. "
                     f"Test loss: {test_loss:.3f}.. "
                     f"Test accuracy: {accuracy * 100:.2f}%")
                 
                 running_loss = 0
-                model.train() #Put back in training mode for next pass
+                model.train()  # Put back in training mode for next pass
 
+    # Save necessary information in the checkpoint dictionary
     model.class_idx_mapping = train_data.class_to_idx
 
     checkpoint = {
@@ -230,18 +242,15 @@ def train_network(model, trainloader, validloader, epochs: int, lr: float, devic
     return checkpoint, train_losses, test_losses
 
 def save_checkpoint(checkpoint):
-    # TODO save_checkpoint docstring
-    """_summary_
+    """
+    Save a PyTorch checkpoint to a specified file using a Tkinter file dialog.
 
     Args:
-        model_state (_type_): _description_
-        optimizer_state (_type_): _description_
-        arch (_type_): _description_
-        count (_type_): _description_
-        hidden_layers (_type_): _description_
-        epochs (_type_): _description_
-        dropout (_type_): _description_
-    """
+    - checkpoint (dict): The checkpoint dictionary to be saved.
+
+    Returns:
+    None
+    """    
 
     # Create a Tkinter root window
     root = tk.Tk()
@@ -267,8 +276,18 @@ def save_checkpoint(checkpoint):
     else:
         print("Save operation was cancelled.")
 
-# loads a checkpoint and rebuilds the model
 def load_model(filepath):
+    """
+    Load a PyTorch model from a specified checkpoint file.
+
+    Args:
+    - filepath (str): The path to the checkpoint file.
+
+    Returns:
+    - model: the reconstructed model 
+    - class_idx_mapping: class index mapping for label prediction
+    """
+
     # Load the checkpoint
     if torch.cuda.is_available():
         checkpoint = torch.load(filepath)
@@ -278,67 +297,103 @@ def load_model(filepath):
     # Reconstructing the model
     model = checkpoint['model']
 
+    # Determine the model architecture
     arch = type(model).__name__.lower()
+    
+    # Define the optimizer based on the model architecture
     if arch == 'resnet':
         optimizer = optim.Adam(model.fc.parameters(), lr=checkpoint['lr'])    
     else:
         optimizer = optim.Adam(model.classifier.parameters(), lr=checkpoint['lr'])
 
+    # Set all model parameters to not require gradients
     for param in model.parameters():
         param.requires_grad = False
     
-    # Build custom classifier class
+    # Build custom classifier
     classifier = nn.Sequential()
 
+    # Add input layer to classifier
     classifier.add_module('layer1', nn.Linear(checkpoint['input_size'], checkpoint['hidden_layers'][0]))
     classifier.add_module('relu1', nn.ReLU())
     classifier.add_module('dropout1', nn.Dropout(p=checkpoint['dropout']))
 
+    # Add hidden layers to classifier
     for i in range(len(checkpoint['hidden_layers'])):
-        print(i)
         if i == len(checkpoint['hidden_layers'])-1:
             classifier.add_module('layer'+ str(i+2), nn.Linear(checkpoint['hidden_layers'][-1], checkpoint['output_size']))
             break
         else:
             classifier.add_module('layer'+ str(i+2), nn.Linear(checkpoint['hidden_layers'][i], checkpoint['hidden_layers'][i+1]))
-            classifier.add_module('reul' + str(i+2), nn.ReLU())
+            classifier.add_module('relu' + str(i+2), nn.ReLU())
             classifier.add_module('dropout' + str(i+2), nn.Dropout(p=checkpoint['dropout']))
 
+    # Add softmax activation to classifier
     classifier.add_module('softmax', nn.LogSoftmax(dim=1))
 
-    
-    model.classifier = classifier
+    # Replace the model's classifier with the custom classifier based on the model architecture
+    if arch == 'resnet':
+        model.fc = classifier
+    else:
+        model.classifier = classifier
     
     # Load the model's state_dict
     model.load_state_dict(checkpoint['state_dict'])
+    
+    # Load the optimizer's state_dict
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+    
+    # Get the class index mapping from the checkpoint
     class_idx_mapping = checkpoint['class_idx_mapping']
+    
+    # Create a dictionary for index to class mapping
     idx_class_mapping = {v: k for k, v in class_idx_mapping.items()}
 
     return model, idx_class_mapping
 
 def predict(image_path, model, labels, idx_class_mapping, topk=5):
+    """
+    Predict the top classes and their probabilities for a given image.
 
-    # # No need for GPU
+    Args:
+    - image_path (str): The path to the image file.
+    - model (nn.Module): The trained neural network model.
+    - labels (list): List of label names.
+    - idx_class_mapping (dict): Dictionary mapping class indices to class names.
+    - topk (int, optional): The number of top classes to return. Default is 5.
+
+    Returns:
+    - probs: the probabilites for the 'topk' classes
+    - classses: the label name for the 'topk' classes
+    """
+
+    # Set device to CPU
     device = torch.device('cpu')
     model.to(device)
     
+    # Set the model to evaluation mode
     model.eval()
      
+    # Process the image
     img = process_image(image_path)
     img = np.expand_dims(img, axis=0)
     img_tensor = torch.from_numpy(img).type(torch.FloatTensor).to(device)
     
+    # Forward pass to get the log probabilities
     with torch.no_grad():
         logps = model.forward(img_tensor)
     
+    # Calculate the probabilities
     probabilities = torch.exp(logps)
     probs, indices = probabilities.topk(topk)
     
+    # Convert tensors to numpy arrays
     probs = probs.numpy().squeeze()
     indices = indices.numpy().squeeze()
     indices = np.atleast_1d(indices)
     probs = np.atleast_1d(probs)
+    
+    # Get the class names from indices
     classes = [idx_class_mapping[index] for index in indices]
     classes = [labels[x] for x in classes]
 
